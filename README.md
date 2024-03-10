@@ -1,4 +1,4 @@
-#  Chatbot Training
+#  Chatbot Interphase
 
 **Get ready to build an intelligent conversational partner!** This project focuses on training a chatbot using [TensorFlow](https://www.tensorflow.org/) framework.
 
