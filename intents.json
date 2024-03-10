@@ -1,0 +1,232 @@
+{
+  "intents": [
+    {
+      "tag": "fallback_response",
+      "patterns": [" "],
+      "responses": ["I'm sorry, I didn't quite catch that. Can you please provide more details or ask another question?"]
+  },
+  {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello! How can I help you?", "Hi there! Great to hear from you, what can i do for you?"]
+  },
+  {
+    
+      "tag": "interest",
+      "patterns": ["please help me in choosing a career", "selecting a job", "I'm unsure about my career path. Can you help me explore some options?", "What career is best suited for my skills and interests?"],
+      "responses": ["Sure thing! What's your favorite hobby?", "Of course! Let's start by discussing your interests, strengths, and any specific industries you find appealing. What are some activities you enjoy doing in your free time?",
+          "To better assist you, could you please share your key skills and interests? This will help me provide more personalized career suggestions."]
+  },
+  {
+      "tag": "education",
+      "patterns": ["Tell me about available courses", "What should I study for a career in IT?", "Recommend some online courses", "How important is education for career success?"],
+      "responses": ["There are various online platforms offering courses. Do you have a specific field in mind?", "For a career in IT, consider courses in programming languages, databases, and cybersecurity.",
+          "Certainly! Can you specify the industry or field you're interested in? It will help me tailor my recommendations.", "Education is valuable, but gaining practical experience through internships and projects is also crucial for success."]
+  },
+  {
+      "tag": "job_search",
+      "patterns": ["How can I find job opportunities?", "Tell me about job search strategies", "Where can I look for job openings?", "Give me tips for a successful job search."],
+      "responses": ["Job search strategies include networking, utilizing job boards, and optimizing your resume. What field are you interested in?", "Networking is key! Attend career fairs and connect with professionals in your industry.",
+          "You can find job openings on platforms like LinkedIn, Indeed, and company websites. What type of job are you looking for?", "Sure, a successful job search involves tailoring your resume, building a strong online presence, and actively networking."]
+  },
+
+  {
+    "tag": "resume_tips",
+    "patterns": ["How can I improve my resume?", "Give me tips for writing a resume", "What should I include in my CV?", "Resume best practices"],
+    "responses": ["To enhance your resume, focus on highlighting achievements and using action verbs. Tailor it for each job application.", "Consider including quantifiable results and emphasizing relevant skills on your resume. What industry are you targeting?",
+        "A strong resume should showcase your skills, experiences, and achievements. Do you have a specific job in mind for your resume improvement?", "Sure! Ensure your resume is clear, concise, and highlights your key accomplishments. What's your current industry or field of interest?"]
+},
+{
+    "tag": "job_interview",
+    "patterns": ["How do I prepare for a job interview?", "Give me tips for a successful job interview", "Common job interview questions", "What to expect in a job interview?"],
+    "responses": ["Research the company, practice common questions, and prepare examples of your achievements for a successful interview. What industry are you interviewing in?", "Successful interviews involve understanding the company, rehearsing responses, and showcasing your skills. What role are you interviewing for?",
+        "Common interview questions include 'Tell me about yourself' and 'What are your strengths and weaknesses?' Practice your answers to these. What position are you interviewing for?", "Expect questions about your experience, skills, and why you're a good fit for the role. Do you have a specific job interview coming up?"]
+},
+{
+  "tag": "career_change",
+  "patterns": ["Is it too late for a career change?", "How to transition to a new career?", "Tips for changing careers", "Can I switch industries?"],
+  "responses": ["It's never too late for a career change! Identify transferable skills and consider additional training if needed. What fields are you interested in?", "Transitioning to a new career involves researching your desired field, gaining relevant skills, and networking. What industries are you considering?",
+      "Changing careers requires careful planning. Assess your skills, update your resume, and network in your desired industry. What specific career change are you contemplating?", "Switching industries is possible with the right strategy. Identify common skills and tailor your resume for the new field. What industries are you interested in?"]
+},
+{
+  "tag": "self_development",
+  "patterns": ["How can I improve my personal development?", "Tips for continuous learning", "Recommend books for personal growth", "What skills should I focus on for self-improvement?"],
+  "responses": ["Continuous learning is key for personal development. Consider online courses, workshops, and reading. What specific skills are you looking to develop?", "Personal growth involves setting goals, seeking feedback, and embracing challenges. What areas of personal development are you interested in?",
+      "Books like 'Atomic Habits' and 'Mindset' are great for personal growth. Are there specific areas of personal development you're interested in?", "Focus on skills like time management, communication, and adaptability for overall self-improvement. What particular skills are you looking to enhance?"]
+},
+{
+  "tag": "tech_careers",
+  "patterns": ["Tell me about careers in technology", "What tech skills are in demand?", "How to start a career in tech?", "Tech career advice"],
+  "responses": ["Technology careers offer diverse opportunities. Roles include software development, data science, and cybersecurity. Which specific tech field are you interested in?", "In-demand tech skills include programming languages, cloud computing, and machine learning. What tech skills do you currently have?",
+      "Starting a tech career involves learning relevant skills, building a portfolio, and networking. What tech field are you considering?", "Tech career advice includes staying updated on industry trends, networking with professionals, and participating in coding projects. What tech role are you aiming for?"]
+},
+
+{
+  "tag": "entrepreneurship",
+  "patterns": ["How to start my own business?", "Entrepreneurship advice", "What skills do entrepreneurs need?", "Starting a startup tips"],
+  "responses": ["Starting a business involves careful planning, market research, and a solid business plan. What industry are you interested in?", "Entrepreneurs need skills like adaptability, resilience, and a strategic mindset. What type of business are you considering?",
+      "Entrepreneurship advice includes networking, seeking mentorship, and staying agile in the face of challenges. What specific aspect of entrepreneurship are you curious about?", "Tips for starting a startup include identifying a unique value proposition, understanding your target market, and building a strong team. What industry is your startup idea in?"]
+},
+{
+  "tag": "work-life_balance",
+  "patterns": ["How to maintain work-life balance?", "Tips for balancing work and personal life", "Managing stress in a demanding job", "Creating a healthy work-life routine"],
+  "responses": ["Maintaining work-life balance involves setting boundaries, prioritizing self-care, and effective time management. What's your current work situation?", "Balancing work and personal life requires prioritizing tasks, delegating when possible, and scheduling downtime. How hectic is your current schedule?",
+      "Managing stress in a demanding job involves mindfulness, regular breaks, and seeking support. What specific challenges are you facing?", "Creating a healthy work-life routine includes setting realistic goals, communicating boundaries, and taking breaks when needed. How can I assist you in achieving a better work-life balance?"]
+},
+{
+  "tag": "diversity_in_careers",
+  "patterns": ["Tell me about diversity in various careers", "Diversity and inclusion in the workplace", "How to navigate a diverse work environment", "Promoting diversity in professional settings"],
+  "responses": ["Diversity in careers is essential for innovation and growth. Many industries are making strides in creating inclusive workplaces. What industry are you interested in?", "Diversity and inclusion involve valuing differences, promoting equality, and fostering a supportive environment. What specific aspect of diversity interests you?",
+      "Navigating a diverse work environment includes active listening, cultural awareness, and building connections. How can I assist you in navigating diversity in your workplace?", "Promoting diversity in professional settings involves advocating for inclusivity, supporting diverse colleagues, and fostering a positive culture. Are you looking for advice on a specific situation?"]
+},
+{
+  "tag": "job_market",
+  "patterns": ["What's the current job market like?", "Job market trends", "Advice for job seekers in a competitive market", "How to stand out in a crowded job market?"],
+  "responses": ["The job market is dynamic. Stay updated on industry trends, tailor your resume, and leverage your network. What industry are you interested in?", "Job market trends vary, but adaptability and continuous learning are key. What specific field are you targeting?",
+      "Advice for job seekers in a competitive market includes building a strong online presence, networking, and showcasing your unique skills. What challenges are you facing in your job search?", "Standing out in a crowded job market involves highlighting your achievements, acquiring in-demand skills, and personalizing your applications. How can I assist you in standing out?"]
+},
+{
+  "tag": "professional_networking",
+  "patterns": ["How to improve my professional network?", "Networking tips for career growth", "Using social media for professional networking", "Building connections in a new industry"],
+  "responses": ["Improving your professional network involves attending events, connecting on LinkedIn, and seeking informational interviews. What industry are you looking to network in?", "Networking tips for career growth include maintaining genuine connections, attending industry events, and joining professional groups. What specific goals do you have?",
+      "Using social media for professional networking is effective. Ensure your profiles are professional, engage with industry content, and connect with relevant professionals. How can I assist you with your online networking?", "Building connections in a new industry involves reaching out to professionals, attending industry-specific events, and expressing genuine interest. How can I support you in expanding your network?"]
+},
+{
+  "tag": "personal_finances",
+  "patterns": ["How to manage personal finances during a career change?", "Saving money for education", "Financial planning for freelancers", "Investing for long-term financial stability"],
+  "responses": ["Managing personal finances during a career change requires budgeting, emergency fund planning, and evaluating necessary expenses. What specific aspects concern you?", "Saving money for education involves creating a savings plan, exploring financial aid, and considering scholarship opportunities. What level of education are you planning for?",
+      "Financial planning for freelancers includes setting aside taxes, creating a business budget, and having a financial safety net. What freelance projects are you currently working on?", "Investing for long-term financial stability involves diversifying your portfolio, understanding risk tolerance, and staying informed about market trends. What's your investment goal?"]
+},
+{
+  "tag": "leadership_skills",
+  "patterns": ["How to develop leadership skills?", "Effective leadership qualities", "Leadership training programs", "Advancing in a leadership role"],
+  "responses": ["Developing leadership skills involves communication, decision-making, and empathy. What specific leadership skills are you interested in?", "Effective leadership qualities include integrity, adaptability, and the ability to inspire others. Which leadership traits would you like to focus on?",
+      "Leadership training programs are available online and through workshops. What industry or field are you considering for leadership training?", "Advancing in a leadership role requires continuous learning, seeking mentorship, and demonstrating strong leadership qualities. What specific challenges are you facing in your leadership journey?"]
+},
+{
+  "tag": "workplace_wellness",
+  "patterns": ["Tips for maintaining wellness in the workplace", "Creating a healthy work environment", "Coping with workplace stress", "Balancing mental health at work"],
+  "responses": ["Maintaining workplace wellness involves taking breaks, staying active, and setting boundaries. What's your current work environment like?", "Creating a healthy work environment includes open communication, recognition, and promoting work-life balance. What specific challenges are you experiencing in your workplace?",
+      "Coping with workplace stress involves mindfulness, prioritizing tasks, and seeking support when needed. How can I assist you in managing workplace stress?", "Balancing mental health at work includes seeking help when needed, taking mental health days, and creating a supportive work environment. What specific aspects of mental health are you interested in addressing?"]
+},
+{
+  "tag": "job_loss",
+  "patterns": ["Coping with job loss", "Job loss recovery strategies", "Finding new opportunities after being laid off", "Dealing with unemployment stress"],
+  "responses": ["Coping with job loss is challenging. Seek support from friends, family, and consider professional guidance. How are you currently managing the situation?", "Job loss recovery strategies involve updating your resume, networking, and exploring new skills. What industry or field are you interested in?",
+      "Finding new opportunities after being laid off involves staying resilient, exploring different industries, and considering freelance or temporary work. What specific challenges are you facing in your job search?", "Dealing with unemployment stress includes self-care, setting realistic goals, and reaching out to support networks. How can I assist you in managing stress during this period?"]
+},
+
+{
+  "tag": "remote_work_tips",
+  "patterns": ["Tips for working remotely", "How to stay productive while working from home", "Remote work challenges", "Remote collaboration tools"],
+  "responses": ["Working remotely requires setting up a dedicated workspace, establishing a routine, and communicating effectively. What specific challenges are you facing?", "Staying productive while working from home involves time management, setting goals, and minimizing distractions. What's your current remote work situation?",
+      "Remote work challenges may include isolation and maintaining work-life balance. How can I assist you in addressing these challenges?", "Remote collaboration tools like Zoom, Slack, and Trello can enhance communication and productivity. Are you looking for recommendations or assistance in using specific tools?"]
+},
+{
+  "tag": "career_advice_for_students",
+  "patterns": ["Career advice for students", "Choosing a major", "Internship tips for college students", "Preparing for post-graduation"],
+  "responses": ["Career advice for students includes exploring interests, gaining internships, and networking. What's your current academic focus?", "Choosing a major involves considering your passions, strengths, and career goals. Do you have specific fields or industries in mind?",
+      "Internship tips for college students include seeking diverse experiences, building a professional network, and showcasing skills on your resume. What type of internship are you interested in?", "Preparing for post-graduation involves updating your resume, attending career fairs, and considering further education or job opportunities. What are your plans after graduation?"]
+},
+{
+  "tag": "career_growth",
+  "patterns": ["Strategies for career growth", "Advancing in your career", "Building a successful career path", "Career advancement tips"],
+  "responses": ["Strategies for career growth include continuous learning, networking, and setting clear goals. What's your current career stage?", "Advancing in your career involves seeking challenging opportunities, gaining new skills, and taking on leadership roles. What industry or field are you in?",
+      "Building a successful career path requires aligning your goals with your strengths and interests. How can I assist you in shaping your career path?", "Career advancement tips include seeking mentorship, staying adaptable, and actively pursuing professional development opportunities. What specific aspect of career advancement are you interested in?"]
+},
+{
+  "tag": "leadership_advice",
+  "patterns": ["Leadership advice for new managers", "Effective leadership communication", "Building a strong leadership team", "Leadership challenges"],
+  "responses": ["Leadership advice for new managers includes active listening, setting clear expectations, and fostering a positive team culture. What leadership challenges are you currently facing?", "Effective leadership communication involves clarity, transparency, and empathy. How can I assist you in improving your communication as a leader?",
+      "Building a strong leadership team requires understanding individual strengths, promoting collaboration, and providing mentorship. What specific challenges are you experiencing in building your team?", "Leadership challenges can vary. It's important to address issues promptly, seek feedback, and continuously develop your leadership skills. What specific challenges would you like advice on?"]
+},
+{
+  "tag": "side_hustle",
+  "patterns": ["Starting a side hustle", "Balancing a full-time job and a side business", "Side hustle ideas for extra income", "Growing a successful side business"],
+  "responses": ["Starting a side hustle involves identifying your skills, market research, and planning. What are your interests or skills you'd like to leverage?", "Balancing a full-time job and a side business requires effective time management, setting priorities, and staying organized. What's your current situation?",
+      "Side hustle ideas for extra income depend on your skills and interests. Are there specific areas you'd like to explore for a side business?", "Growing a successful side business involves marketing, customer engagement, and continuous improvement. How can I assist you in growing your side hustle?"]
+},
+{
+  "tag": "stress_management",
+  "patterns": ["Coping with workplace stress", "Effective stress management techniques", "Dealing with burnout", "Maintaining mental well-being at work"],
+  "responses": ["Coping with workplace stress includes mindfulness, breaks, and seeking support. What specific stressors are you currently dealing with at work?", "Effective stress management techniques involve regular exercise, time for relaxation, and setting boundaries. How can I assist you in managing stress?",
+      "Dealing with burnout requires recognizing symptoms, taking breaks, and seeking professional support. Are you experiencing burnout, and how can I support you?", "Maintaining mental well-being at work involves self-care, open communication, and creating a healthy work environment. What specific aspects of mental well-being are you interested in addressing?"]
+}, {
+  "tag": "career_alignment",
+  "patterns": ["How can my interests align with a career?", "Can you suggest careers based on my hobbies?", "Explore career options for me"],
+  "responses": ["Absolutely! Based on your interests in reading, dancing, and coding, here are a few potential career paths:\n1. Technical writer or blogger for your love of reading.\n2. Dance instructor or choreographer for your passion for dancing.\n3. Software developer or coder for your interest in coding. \nWould you like more information about any specific career or industry?"]
+},
+{
+  "tag": "further_discussion",
+  "patterns": ["Tell me more about technical writing", "What's it like being a dance instructor?", "Can you share details about a coding career?"],
+  "responses": ["Certainly! Let's dive deeper into each option.\n\n1. **Technical Writing:** Technical writers create documentation for software or products. They explain complex information in a clear and concise manner, making it easily understandable for users.\n\n2. **Dance Instruction:** Dance instructors teach various dance forms, choreograph routines, and may work in dance studios, schools, or as freelance instructors.\n\n3. **Coding Career:** A coding career involves developing software, websites, or applications. Coders write, test, and debug code, turning ideas into functional programs.\n\nWhich one are you more intrigued by, or do you have other questions?"]
+},
+{
+  "tag": "career_details",
+  "patterns": ["Tell me more about being a technical writer", "Share insights into dance instruction", "Details about a coding career"],
+  "responses": ["Certainly! Let's delve deeper into each career option.\n\n1. **Technical Writing:** Technical writers often work closely with software developers and engineers. They create user guides, manuals, and online documentation. Strong writing skills and the ability to understand technical concepts are crucial.\n\n2. **Dance Instruction:** Dance instructors lead classes, choreograph routines, and may work in dance schools, studios, or even start their own dance businesses. Passion for dance and effective teaching skills are essential.\n\n3. **Coding Career:** Coders, also known as software developers, write, test, and maintain code for software applications. They collaborate with teams to bring ideas to life. A strong grasp of programming languages and problem-solving skills are key.\n\nDo any of these careers resonate with you, or would you like more information on a specific aspect?"]
+},
+{
+  "tag": "technical_writing_details",
+  "patterns": ["Tell me more about technical writer responsibilities", "What skills do technical writers need?", "Technical writing career prospects"],
+  "responses": ["Certainly! In a technical writing role, responsibilities include creating clear and concise documentation, collaborating with subject matter experts, and ensuring that user manuals and guides are accurate. Skills needed include excellent writing, attention to detail, and the ability to grasp complex technical concepts. The demand for technical writers is high in industries like technology, healthcare, and manufacturing. Is there anything specific you'd like to know more about technical writing?"]
+},
+{
+  "tag": "dance_instruction_details",
+  "patterns": ["Share insights into dance instruction career", "What qualifications do dance instructors need?", "Dance instruction career growth"],
+  "responses": ["Of course! In a dance instruction career, you'd be responsible for leading dance classes, choreographing routines, and possibly managing your own dance studio. Qualifications may include formal dance training, certifications, and effective teaching skills. Career growth can involve becoming a dance studio owner, choreographer for performances, or even participating in dance competitions. Is there anything specific you'd like more information about in dance instruction?"]
+},
+{
+  "tag": "coding_career_details",
+  "patterns": ["Details about a coding career", "What programming languages are essential for coders?", "Career growth for software developers"],
+  "responses": ["Certainly! In a coding career, also known as software development, you'd be writing, testing, and maintaining code for software applications. Essential programming languages can vary but often include languages like Python, Java, or JavaScript. Career growth can involve becoming a senior developer, software architect, or even transitioning into roles like project management. Is there anything specific you'd like more information about in a coding career?"]
+},
+{
+  "tag": "further_discussion",
+  "patterns": ["Tell me more about technical writing", "What's it like being a dance instructor?", "Can you share details about a coding career?"],
+  "responses": ["Certainly! Let's dive deeper into each option.\n\n1. **Technical Writing:** Technical writers create documentation for software or products. They explain complex information in a clear and concise manner, making it easily understandable for users.\n\n2. **Dance Instruction:** Dance instructors teach various dance forms, choreograph routines, and may work in dance studios, schools, or as freelance instructors.\n\n3. **Coding Career:** A coding career involves developing software, websites, or applications. Coders write, test, and debug code, turning ideas into functional programs.\n\nWhich one are you more intrigued by, or do you have other questions?"]
+},
+{
+  "tag": "career_details",
+  "patterns": ["Tell me more about being a technical writer", "Share insights into dance instruction", "Details about a coding career"],
+  "responses": ["Certainly! Let's delve deeper into each career option.\n\n1. **Technical Writing:** Technical writers often work closely with software developers and engineers. They create user guides, manuals, and online documentation. Strong writing skills and the ability to understand technical concepts are crucial.\n\n2. **Dance Instruction:** Dance instructors lead classes, choreograph routines, and may work in dance schools, studios, or even start their own dance businesses. Passion for dance and effective teaching skills are essential.\n\n3. **Coding Career:** Coders, also known as software developers, write, test, and maintain code for software applications. They collaborate with teams to bring ideas to life. A strong grasp of programming languages and problem-solving skills are key.\n\nDo any of these careers resonate with you, or would you like more information on a specific aspect?"]
+},
+{
+  "tag": "course_recommendation",
+  "patterns": ["Recommend courses for technical writing", "Courses for becoming a dance instructor", "Coding career development courses"],
+  "responses": ["Certainly! Here are some recommended courses based on your interests:\n\n1. **Technical Writing Courses:**\n   a. Technical Writing: Master Your Writing Career Path\n   b. Technical Writing and Editing - University of California, Irvine\n   c. Technical Writing and Communication - Stanford University\n\n2. **Dance Instruction Courses:**\n   a. Dance Teacher Training - Royal Academy of Dance\n   b. Certified Dance Teacher Program - Dance Educators of America\n   c. Dance Instruction Essentials - Udemy\n\n3. **Coding Career Development Courses:**\n   a. Full Stack Web Development - freeCodeCamp\n   b. The Web Developer Bootcamp 2022 - Colt Steele on Udemy\n   c. Codecademy Pro: Learn Python, JavaScript, and More\n\nFeel free to explore these courses, and let me know if you have any specific preferences or if there's anything else I can assist you with!"]
+},
+{
+  "tag": "course_details",
+  "patterns": ["Tell me more about the Technical Writing course", "Details about Dance Teacher Training", "Information on Full Stack Web Development course"],
+  "responses": ["Certainly! Here are more details about the recommended courses:\n\n1. **Technical Writing: Master Your Writing Career Path**\n   - Provider: Coursera\n   - Duration: 8 weeks\n   - Covers: Advanced technical writing skills, document design, and industry insights.\n\n2. **Dance Teacher Training - Royal Academy of Dance**\n   - Provider: Royal Academy of Dance\n   - Duration: 12 months\n   - Covers: Pedagogical techniques, dance history, and practical teaching skills.\n\n3. **Full Stack Web Development - freeCodeCamp**\n   - Provider: freeCodeCamp\n   - Self-paced\n   - Covers: HTML, CSS, JavaScript, Node.js, and more.\n\nFeel free to explore these course details, and let me know if you have any specific questions or if there's anything else I can help you with!"]
+},
+{
+  "tag": "skills_recommendation",
+  "patterns": ["Recommend courses for improving writing skills", "Courses to enhance teaching skills", "Coding skills development courses"],
+  "responses": ["Certainly! If you're looking to enhance specific skills, here are some recommended courses:\n\n1. **Improving Writing Skills Courses:**\n   a. Writing Professional Emails and Memos - LinkedIn Learning\n   b. Creative Writing Specialization - Coursera\n   c. Grammar and Punctuation - edX\n\n2. **Teaching Skills Enhancement Courses:**\n   a. Effective Online Teaching - Udacity\n   b. Teaching Strategies for the College Classroom - Stanford Online\n   c. The Science of Learning - Harvard University\n\n3. **Coding Skills Development Courses:**\n   a. Code Foundations - Pluralsight\n   b. Python for Everybody Specialization - University of Michigan on Coursera\n   c. Algorithms and Data Structures - edX\n\nFeel free to explore these courses to hone your skills, and let me know if you have specific skill areas you'd like to focus on or if there's anything else I can assist you with!"]
+},
+{
+  "tag": "skills_details",
+  "patterns": ["Tell me more about the Writing Skills course", "Details about Effective Online Teaching", "Information on Code Foundations"],
+  "responses": ["Certainly! Here are more details about the recommended skills enhancement courses:\n\n1. **Improving Writing Skills Courses:**\n   - Writing Professional Emails and Memos\n     - Provider: LinkedIn Learning\n     - Duration: 4 hours\n   - Creative Writing Specialization\n     - Provider: Coursera\n     - Duration: 6 months\n   - Grammar and Punctuation\n     - Provider: edX\n     - Duration: 6 weeks\n\n2. **Teaching Skills Enhancement Courses:**\n   - Effective Online Teaching\n     - Provider: Udacity\n     - Duration: Self-paced\n   - Teaching Strategies for the College Classroom\n     - Provider: Stanford Online\n     - Duration: 8 weeks\n   - The Science of Learning\n     - Provider: Harvard University\n     - Duration: 5 weeks\n\n3. **Coding Skills Development Courses:**\n   - Code Foundations\n     - Provider: Pluralsight\n     - Duration: Self-paced\n   - Python for Everybody Specialization\n     - Provider: University of Michigan on Coursera\n     - Duration: 7 months\n   - Algorithms and Data Structures\n     - Provider: edX\n     - Duration: 6 weeks\n\nFeel free to explore these course details, and let me know if you have any specific questions or if there's anything else I can help you with!"]
+},
+
+    {
+      "tag": "programming_language_response",
+      "patterns": ["I prefer {language}", "My favorite programming language is {language}", "{language}"],
+      "responses": ["Interesting choice! What projects do you usually work on with {language}?", "Nice! Do you have a favorite feature of {language}?"]
+    },
+   
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot"],
+      "responses": ["You're welcome! Is there anything else you'd like to share or discuss?", "No problem! How else can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Bye"],
+      "responses": ["Goodbye! If you ever want to chat again, feel free to reach out.", "See you later! Take care."]
+    } 
+  ]
+}

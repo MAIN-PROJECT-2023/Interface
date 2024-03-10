@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Academic Advisor Chatbot</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+<!-- Favicons -->
+<link rel="icon" type="text/css" href="{{ url_for('static', filename='img/favicon.png') }}">
+<link rel="apple-touch-icon" type="text/css" href="{{ url_for('static', filename='img/apple-touch-icon.png') }}">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/aos/aos.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/bootstrap-icons/bootstrap-icons.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/boxicons/css/boxicons.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/glightbox/css/glightbox.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/swiper/swiper-bundle.min.css') }}">
+
+<!-- Template Main CSS File -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1 class="text-light"><a  href="/loginregpage"><span>Academic Advisor</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+       <!--  <a href="index.html"><img src="assets/img/favicon.png" alt="" class="img-fluid"></a> -->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="/loginregpage">Login/Register </a></li>
+          <li><a class="nav-link scrollto" href=" /#about">About Us</a></li>
+          <li><a class="nav-link scrollto" href="/#services">Services</a></li>
+      
+          <li><a class="nav-link scrollto" href="/#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="/#home">Home</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header>
+
+  <main id="main">
+
+ <!-- Registration Section -->
+ <section id="registration" class="registration">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-6 pt-5 pt-lg-0">
+          <h3 data-aos="fade-up">Create an Account</h3>
+          <form action="/register-success" method="post">
+            <div class="form-group" data-aos="fade-up" data-aos-delay="100">
+              <label for="username">Username</label>
+              <input type="text" id="username" name="username" class="form-control" required>
+            </div>
+            <div class="form-group" data-aos="fade-up" data-aos-delay="150">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group" data-aos="fade-up" data-aos-delay="200">
+              <label for="new-password">Password</label>
+              <input type="password" id="new-password" name="new-password" class="form-control" required>
+            </div>
+            <div class="form-group" data-aos="fade-up" data-aos-delay="200">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" id="confirm-password" name="confirm-password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary" data-aos="fade-up" data-aos-delay="250">Register</button>
+          </form>
+            <a href="#login" class="switch-section-link">Already have an account? Login here</a>
+          
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Login Section -->
+  <section id="login" class="login">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-6 pt-5 pt-lg-0">
+          <h3 data-aos="fade-up">Log In</h3>
+          <form action="/login" method="post">
+            <div class="form-group" data-aos="fade-up" data-aos-delay="100">
+              <label for="email1">Email</label>
+              <input type="email" id="email1" name="email1" class="form-control" required>
+            </div>
+            <div class="form-group" data-aos="fade-up" data-aos-delay="200">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary" data-aos="fade-up" data-aos-delay="250">Log In</button>
+          </form>
+          <a href="#registration" class="switch-section-link">Create account</a>
+       <!--    <a href="/chatbotpage">Chatbot</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  </main>
+
+   <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+   
+
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Academic chatbot </span></strong>. All Rights Reserved
+      </div>
+      <!-- <div class="credits">
+
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div> -->
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script type="text/javascript" src="{{ url_for('static', filename='vendor/aos/aos.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='vendor/php-email-form/validate.js') }}"></script>
+
+  <!-- Template Main JS File -->
+
+  <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+
+</html>
