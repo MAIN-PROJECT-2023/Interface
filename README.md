@@ -12,7 +12,7 @@ Before diving in, create a virtual environment to isolate project dependencies. 
 
 1. Open your terminal and navigate to your project directory (e.g., `cd path/to/your/project`).
 2. Create a virtual environment named `venv`: `python -m venv venv`
-3. Activate it: `venv\Scripts\activate`
+3. Activate it: `.\venv\Scripts\activate`
 
 **Unix/macOS:**
 
