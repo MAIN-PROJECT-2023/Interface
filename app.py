@@ -77,12 +77,20 @@ def predict_class(sentence):
     return return_list
 
 def get_response(intents_list, intents_json):
-    tag = intents_list[0]['intent']
+    if intents_list:
+        tag = intents_list[0]['intent']
+        # Rest of your code here
+    else:
+        # Handle the case when the list is empty
+        tag = "I'm sorry, I didn't quite catch that. Can you please provide more details or ask another question?"
+
     list_of_intents = intents_json['intents']
+    result = "I'm sorry, I didn't quite catch that. Can you please provide more details or ask another question?"  # Set a default response in case the tag is not found
     for i in list_of_intents:
-        if i['tag'] == tag:
-            result = random.choice(i['responses'])
+        if i.get('tag') == tag:
+            result = random.choice(i.get('responses', ["Default response"]))
             break
+
     return result
 
 print("GO! Bot is running!") 
@@ -178,7 +186,9 @@ def chatbotpage():
         flash('Please log in first', 'error')
         return redirect(url_for('loginregpage'))
 
-
+@app.route('/internship')
+def internship():
+    return render_template('internship.html')
 
 
 

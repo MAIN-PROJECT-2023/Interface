@@ -8,10 +8,9 @@
   {
       "tag": "greeting",
       "patterns": ["Hi", "Hello", "Hey"],
-      "responses": ["Hello! How can I help you?", "Hi there! Great to hear from you, what can i do for you?"]
+      "responses": ["Hello! How can I help you?", "Hi there! Great to hear from you, need any help?"]
   },
   {
-    
       "tag": "interest",
       "patterns": ["please help me in choosing a career", "selecting a job", "I'm unsure about my career path. Can you help me explore some options?", "What career is best suited for my skills and interests?"],
       "responses": ["Sure thing! What's your favorite hobby?", "Of course! Let's start by discussing your interests, strengths, and any specific industries you find appealing. What are some activities you enjoy doing in your free time?",
@@ -23,6 +22,113 @@
       "responses": ["There are various online platforms offering courses. Do you have a specific field in mind?", "For a career in IT, consider courses in programming languages, databases, and cybersecurity.",
           "Certainly! Can you specify the industry or field you're interested in? It will help me tailor my recommendations.", "Education is valuable, but gaining practical experience through internships and projects is also crucial for success."]
   },
+  
+      {
+        "tag": "course_recommendation",
+        "patterns": ["Recommend courses based on my interests", "What courses align with my skills?", "Suggest online courses for me"],
+        "responses": ["Sure, I'd be happy to help! Could you please tell me more about your specific interests or skills? For example, are you interested in programming, design, business, or any other field? The more details you provide, the better I can tailor my recommendations."]
+      },
+      {
+        "tag": "programming_courses",
+        "patterns": ["I want to learn programming", "Recommend coding courses", "Best courses for software development"],
+        "responses": ["Great choice! For programming, consider courses on platforms like Codecademy, Udacity, or Coursera. If you're a beginner, 'Python for Beginners' or 'JavaScript Fundamentals' might be a good start. If you have a specific language in mind or any preferences, let me know for more targeted recommendations!"]
+      },
+      {
+        "tag": "design_courses",
+        "patterns": ["Graphic design courses", "Courses for UX/UI design", "Best platforms for design learning"],
+        "responses": ["Fantastic! For graphic design, platforms like Skillshare, Adobe Creative Cloud, and Coursera offer valuable courses. 'Introduction to Graphic Design' or 'UI/UX Design Fundamentals' could be great starting points. Let me know if you have any specific design area you're interested in for more tailored suggestions!"]
+      },
+      {
+        "tag": "business_courses",
+        "patterns": ["Business and entrepreneurship courses", "MBA programs online", "Best courses for startup founders"],
+        "responses": ["Excellent choice! For business and entrepreneurship, platforms like edX, LinkedIn Learning, and Khan Academy offer a range of courses. Consider 'Introduction to Business Strategy' or 'Entrepreneurship Essentials.' If you have specific goals or industries in mind, let me know for more precise recommendations!"]
+      },
+      {
+        "tag": "data_science_courses",
+        "patterns": ["Data science and analytics courses", "Best courses for data analysis", "Machine learning certifications"],
+        "responses": ["Terrific! For data science, platforms like DataCamp, Kaggle, and Coursera provide excellent courses. 'Introduction to Data Science' or 'Machine Learning A-Z' are solid choices. If you have preferences for tools or specific aspects of data science, feel free to share for more targeted suggestions!"]
+      },
+  
+          {
+            "tag": "course_recommendation",
+            "patterns": ["Recommend courses based on my interests", "What courses align with my skills?", "Suggest online courses for me"],
+            "responses": ["Absolutely, I'm here to help! Could you please share more about your specific interests or skills? Whether it's technology, arts, health, or any other domain, the more details you provide, the better I can tailor my recommendations."]
+          },
+          {
+            "tag": "technology_courses",
+            "patterns": ["Courses in artificial intelligence", "Cybersecurity training", "Best programming languages to learn"],
+            "responses": ["Great choice diving into technology! For AI, consider courses on platforms like Coursera ('Machine Learning' by Andrew Ng). Cybersecurity enthusiasts might benefit from courses on platforms like Udemy ('Complete Cyber Security Course'). If you're interested in programming languages, platforms like edX and Codecademy offer comprehensive courses. Let me know if you have specific preferences or goals for more accurate recommendations!"]
+          },
+          {
+            "tag": "arts_courses",
+            "patterns": ["Creative writing courses online", "Digital art and design classes", "Courses for aspiring musicians"],
+            "responses": ["Fantastic! For creative writing, platforms like Skillshare and Coursera have valuable courses. Digital art enthusiasts might enjoy platforms like Udemy ('Digital Painting'). Aspiring musicians can explore platforms like Berklee Online for music courses. If you have a specific art form or tool in mind, feel free to share for more targeted suggestions!"]
+          },
+          {
+            "tag": "health_courses",
+            "patterns": ["Online courses in nutrition", "Fitness training certifications", "Mental health and wellness courses"],
+            "responses": ["Excellent choice focusing on health! For nutrition, consider courses on platforms like Khan Academy or Coursera ('Nutrition Science'). Fitness enthusiasts can explore certifications like NASM or ACE. Mental health and wellness courses are available on platforms like edX ('The Science of Well-Being'). If you have specific health goals or areas of interest, let me know for more personalized recommendations!"]
+          },
+          {
+            "tag": "business_courses",
+            "patterns": ["Finance and investment courses", "Digital marketing training", "Leadership and management programs"],
+            "responses": ["Terrific! For finance, platforms like Udemy and Coursera offer courses like 'Financial Markets and Investment Strategy.' Digital marketing enthusiasts might benefit from courses on Google Digital Garage or HubSpot Academy. Leadership and management programs are available on platforms like LinkedIn Learning. If you have specific business goals or industries in mind, feel free to share for more targeted suggestions!"]
+          },  
+          
+          {
+            "tag": "course_recommendation",
+            "patterns": ["Recommend courses based on my interests", "What courses align with my skills?", "Suggest online courses for me"],
+            "responses": ["Absolutely! To provide the best recommendations, could you please share more details about your specific interests or skills? Whether it's technology, arts, health, business, or any other field, the more information you provide, the more tailored my suggestions can be."]
+          },
+          {
+            "tag": "science_courses",
+            "patterns": ["Physics and astronomy courses online", "Biology and life sciences classes", "Chemistry fundamentals"],
+            "responses": ["Great to see an interest in science! For physics and astronomy, platforms like edX offer courses such as 'Introduction to Astrophysics.' Biology and life sciences enthusiasts might enjoy courses on platforms like Coursera ('Biology and Life Sciences'). Chemistry fundamentals can be explored through platforms like Khan Academy. If you have specific areas or topics in mind, feel free to share for more accurate recommendations!"]
+          },
+          {
+            "tag": "language_courses",
+            "patterns": ["Learn a new language online", "Language proficiency courses", "Language learning apps"],
+            "responses": ["Fantastic choice to explore new languages! Platforms like Duolingo, Rosetta Stone, and Babbel offer interactive language courses. For more structured learning, consider platforms like Coursera ('Language Learning Specializations'). If you have a specific language or proficiency level in mind, let me know for more personalized suggestions!"]
+          },
+          {
+            "tag": "engineering_courses",
+            "patterns": ["Mechanical engineering courses", "Civil engineering certifications", "Electrical engineering fundamentals"],
+            "responses": ["Excellent focus on engineering! For mechanical engineering, platforms like Coursera and edX offer courses such as 'Mechanical Engineering Fundamentals.' Civil engineering certifications can be explored through institutions like ASCE. Electrical engineering fundamentals are available on platforms like Udacity. If you have specific areas or projects in mind, feel free to share for more targeted recommendations!"]
+          },
+          {
+            "tag": "environmental_courses",
+            "patterns": ["Environmental science and sustainability courses", "Green energy certifications", "Conservation and wildlife protection programs"],
+            "responses": ["Terrific choice for environmental studies! Platforms like Coursera and edX offer courses in environmental science and sustainability. For green energy certifications, consider programs like LEED. Conservation and wildlife protection programs are available on platforms like Wildlife Conservation Society. If you have specific environmental interests or goals, let me know for more personalized suggestions!"]
+          },
+          {
+            "tag": "course_recommendation",
+            "patterns": ["Recommend courses based on my interests", "What courses align with my skills?", "Suggest online courses for me"],
+            "responses": ["Absolutely! To offer the best recommendations, could you provide more details about your specific interests or skills? Whether it's science, languages, engineering, environmental studies, or any other field, the more information you share, the more tailored my suggestions can be."]
+          },
+          {
+            "tag": "psychology_courses",
+            "patterns": ["Psychology and mental health courses", "Counseling and therapy certifications", "Positive psychology programs"],
+            "responses": ["Great interest in psychology! Platforms like Coursera and Udemy offer courses in psychology and mental health. For counseling and therapy certifications, institutions like APA provide accredited programs. Positive psychology programs are available on platforms like Positive Psychology Specialization on Coursera. If you have specific areas of psychology or therapy you're interested in, let me know for more personalized suggestions!"]
+          },
+          {
+            "tag": "culinary_courses",
+            "patterns": ["Cooking and culinary arts classes", "Baking and pastry courses online", "Culinary management programs"],
+            "responses": ["Fantastic choice for culinary arts! Platforms like MasterClass and Skillshare offer cooking and culinary arts classes. Baking and pastry courses can be found on platforms like The Great Courses. Culinary management programs are available on institutions like the Culinary Institute of America. If you have specific cuisines or techniques in mind, let me know for more personalized suggestions!"]
+          },
+          {
+            "tag": "music_courses",
+            "patterns": ["Music theory and composition courses", "Instrument-specific lessons online", "Music production and audio engineering programs"],
+            "responses": ["Excellent choice for music enthusiasts! Platforms like Berklee Online and Coursera offer music theory and composition courses. Instrument-specific lessons can be found on platforms like Fret Trainer or Simply Piano. Music production and audio engineering programs are available on platforms like Point Blank Music School. If you have specific instruments or genres in mind, let me know for more personalized suggestions!"]
+          },
+          {
+            "tag": "history_courses",
+            "patterns": ["World history and ancient civilizations courses", "American history classes online", "Archaeology and historical preservation programs"],
+            "responses": ["Terrific interest in history! Platforms like edX and Khan Academy offer courses in world history and ancient civilizations. For American history, platforms like Coursera and The Great Courses provide comprehensive classes. Archaeology and historical preservation programs can be explored through institutions like UNESCO. If you have specific historical periods or regions in mind, let me know for more personalized suggestions!"]
+          },
+
+
+
+        
   {
       "tag": "job_search",
       "patterns": ["How can I find job opportunities?", "Tell me about job search strategies", "Where can I look for job openings?", "Give me tips for a successful job search."],
@@ -115,7 +221,11 @@
   "responses": ["Coping with job loss is challenging. Seek support from friends, family, and consider professional guidance. How are you currently managing the situation?", "Job loss recovery strategies involve updating your resume, networking, and exploring new skills. What industry or field are you interested in?",
       "Finding new opportunities after being laid off involves staying resilient, exploring different industries, and considering freelance or temporary work. What specific challenges are you facing in your job search?", "Dealing with unemployment stress includes self-care, setting realistic goals, and reaching out to support networks. How can I assist you in managing stress during this period?"]
 },
-
+{
+  "tag": "dance_instruction_details",
+  "patterns": ["Share insights into dance instruction career", "What qualifications do dance instructors need?", "Dance instruction career growth","i like dancing ","dance "],
+  "responses": ["Of course! In a dance instruction career, you'd be responsible for leading dance classes, choreographing routines, and possibly managing your own dance studio. Qualifications may include formal dance training, certifications, and effective teaching skills. Career growth can involve becoming a dance studio owner, choreographer for performances, or even participating in dance competitions. Is there anything specific you'd like more information about in dance instruction?"]
+},
 {
   "tag": "remote_work_tips",
   "patterns": ["Tips for working remotely", "How to stay productive while working from home", "Remote work challenges", "Remote collaboration tools"],
