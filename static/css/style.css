@@ -938,6 +938,97 @@ section {
 #advisor-avatar-container {
   display: none; /* Hide advisor's avatar by default */
 }
+/* .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #302C42;
+  min-width: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown li {
+  display: block;
+}
+
+li:hover .dropdown {
+  display: block;
+}
+ */
+/*  ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+} */
+/* Style for the dropdown */
+/* Customizing the scrollbar */
+.dropdown-container .dropdown::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+.dropdown-container .dropdown::-webkit-scrollbar-thumb {
+  background-color: #7386e42f;
+  box-shadow: 0px 0px 10px rgba(124, 137, 208, 0.488); /* Set the color of the scrollbar thumb */
+  border-radius: 6px; /* Set the border radius of the scrollbar thumb */
+}
+
+.dropdown-container .dropdown::-webkit-scrollbar-track {
+  background-color: #302C42; /* Set the color of the scrollbar track */
+}
+
+/* Rest of the styles for dropdown */
+.dropdown-container .dropdown {
+  display: none; /* Hide dropdown items by default */
+  position: absolute;
+  background-color: #302C42;
+  min-width: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 0; /* Remove default padding */
+  max-height: 160px; /* Set max height for dropdown */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Style for dropdown items */
+.dropdown-container .dropdown li {
+  display: block;
+}
+
+/* Style for dropdown item links */
+.dropdown-container .dropdown li a {
+  display: block;
+  padding: 10px; /* Add padding to the dropdown item links */
+  color: #ffffff; /* Text color */
+  text-decoration: none;
+}
+
+/* Hover effect for dropdown item links */
+.dropdown-container .dropdown li a:hover {
+  background-color: #49436E; /* Change background color on hover */
+}
+
+/* Show dropdown items when the dropdown container is hovered */
+.dropdown-container:hover .dropdown {
+  display: block;
+}
+
+/* Ensure the dropdown is positioned relative to this container */
+.dropdown-container {
+  position: relative;
+}
+
+
+
+
+
+
+
+
 
 /* .line-svg {
   width: 100vw;

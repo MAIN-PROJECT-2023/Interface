@@ -9,7 +9,7 @@ from markupsafe import Markup
 
 import nltk
 from nltk.stem import WordNetLemmatizer
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model 
 
 
 
@@ -18,28 +18,24 @@ from flask_wtf import FlaskForm, csrf
 from pymongo import MongoClient
 
 
+from functools import wraps
 
 
+
+app = Flask(__name__)
+app.secret_key = 'your_secret_key_here'
 
 
 mode='cloud'
-
 if mode=='local':
-    app = Flask(__name__)
-    app.secret_key = 'your_secret_key_here'
-    app.config['MONGO_URI'] = 'mongodb://localhost:27017/chatbot'
-    mongo = PyMongo(app)
     # Connect to MongoDB
-    client = MongoClient("mongodb://localhost:27017") 
-    db = client['chatbot']
+    app.config['MONGO_URI']= 'mongodb://localhost:27017/chatbot'
 else:
-    app = Flask(__name__)
-    app.secret_key = 'your_secret_key_here'
-    app.config['MONGO_URI'] = 'mongodb://localhost:27017/chatbot'
-    mongo = PyMongo(app)
     # Connect to MongoDB
-    client = MongoClient("mongodb+srv://shiban:hqwaSJns8vkQVVtk@cluster0.6dhrc7h.mongodb.net/test") 
-    db = client['chatbot']
+    app.config['MONGO_URI']='mongodb+srv://shiban:hqwaSJns8vkQVVtk@cluster0.6dhrc7h.mongodb.net/test'
+
+mongo = PyMongo(app)
+db = mongo.db
 
 
 lemmatizer = WordNetLemmatizer()
@@ -93,10 +89,19 @@ def get_response(intents_list, intents_json):
 
     return result
 
+
 print("GO! Bot is running!")  
 
-app = Flask(__name__)
-app.secret_key = 'your_secret_key'
+
+
+def login_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if 'user' not in session:
+            flash('Please log in first', 'error')
+            return redirect(url_for('loginregpage'))
+        return f(*args, **kwargs)
+    return decorated_function
 
 @app.route('/')
 def index():
@@ -172,10 +177,13 @@ def logincred():
             return redirect(url_for('loginregpage'))
 
 
+
+
 @app.route('/chatbotpage')
+@login_required
 def chatbotpage():
     # Retrieve user information from session
-    user = session.get('user', None)
+    user = session.get('user', None) 
 
     # Check if user is logged in
     if user:
@@ -201,11 +209,13 @@ def ask():
     
 
 @app.route('/aptitude')
+@login_required
 def aptitude():
     return render_template('/testAptitude/demo.html')
 
 
 @app.route('/submit_form', methods=['POST'])
+@login_required
 def submit_form():
     education = request.form['education']
     print("Education selected:", education)
@@ -221,49 +231,59 @@ def submit_form():
         return "Invalid education type", 400
 
 @app.route('/tenth')
+@login_required
 def tenth():
     return render_template('/Highschool/tenth.html')
 
 @app.route('/twelth')
+@login_required
 def twelth():
     return render_template('/Highschool/Hss/twelth.html')
 
 @app.route('/higher')
+@login_required
 def higher():
     return render_template('/Highschool/proff/proof.html')
 
 
 @app.route('/quantitative10')
+@login_required
 def quantitative_test10():
     # Render the template for the quantitative test
     return render_template('/Highschool/num10.html')
 
 @app.route('/abstract10')
+@login_required
 def abstract_test10():
     # Render the template for the abstract test
     return render_template('/Highschool/ar10.html')
 
 @app.route('/verbal10')
+@login_required
 def verbal_test10():
     # Render the template for the verbal test
     return render_template('/Highschool/verb10.html')
 
 @app.route('/spatial10')
+@login_required
 def spatial_test10():
     # Render the template for the spatial test
     return render_template('/Highschool/sp10.html')
 
 @app.route('/mechanical10')
+@login_required
 def mechanical_test10():
     # Render the template for the mechanical test
     return render_template('/Highschool/mech10.html')
 
 @app.route('/perceptual10')
+@login_required
 def perceptual_test10():
     # Render the template for the perceptual test
     return render_template('/Highschool/per10.html')
 
 @app.route('/language10')
+@login_required
 def language_test10():
     # Render the template for the language test
     return render_template('/Highschool/lang10.html')
@@ -273,36 +293,43 @@ def language_test10():
 
 
 @app.route('/quantitativeH')
+@login_required
 def quantitative_testH():
     # Render the template for the quantitative test
     return render_template('/Highschool/Hss/num12.html')
 
 @app.route('/abstractH')
+@login_required
 def abstract_testH():
     # Render the template for the abstract test
     return render_template('/Highschool/Hss/ar12.html')
 
 @app.route('/verbalH')
+@login_required
 def verbal_testH():
     # Render the template for the verbal test
     return render_template('/Highschool/Hss/verb12.html')
 
 @app.route('/spatialH')
+@login_required
 def spatial_testH():
     # Render the template for the spatial test
     return render_template('/Highschool/Hss/sp12.html')
 
 @app.route('/mechanicalH')
+@login_required
 def mechanical_testH():
     # Render the template for the mechanical test
     return render_template('/Highschool/Hss/mech12.html')
 
 @app.route('/perceptualH')
+@login_required
 def perceptual_testH():
     # Render the template for the perceptual test
     return render_template('/Highschool/Hss/per12.html')
 
 @app.route('/languageH')
+@login_required
 def language_testH():
     # Render the template for the language test
     return render_template('/Highschool/Hss/lang12.html')
