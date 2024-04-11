@@ -93,7 +93,7 @@ def get_response(intents_list, intents_json):
 
     return result
 
-print("GO! Bot is running!") 
+print("GO! Bot is running!")  
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
@@ -186,11 +186,6 @@ def chatbotpage():
         flash('Please log in first', 'error')
         return redirect(url_for('loginregpage'))
 
-@app.route('/internship')
-def internship():
-    return render_template('internship.html')
-
-
 
 @app.route('/ask', methods=['POST'])
 def ask():
@@ -198,6 +193,120 @@ def ask():
     ints = predict_class(user_message)
     res = get_response(ints, intents)
     return jsonify({'bot_response': res, 'user_message': user_message})
+
+
+
+
+
+    
+
+@app.route('/aptitude')
+def aptitude():
+    return render_template('/testAptitude/demo.html')
+
+
+@app.route('/submit_form', methods=['POST'])
+def submit_form():
+    education = request.form['education']
+    print("Education selected:", education)
+
+    # Redirect based on education type
+    if education == "10th":
+        return redirect(url_for('tenth'))
+    elif education == "12th":
+        return redirect(url_for('twelth'))
+    elif education == "Higher":
+        return redirect(url_for('higher'))
+    else:
+        return "Invalid education type", 400
+
+@app.route('/tenth')
+def tenth():
+    return render_template('/Highschool/tenth.html')
+
+@app.route('/twelth')
+def twelth():
+    return render_template('/Highschool/Hss/twelth.html')
+
+@app.route('/higher')
+def higher():
+    return render_template('/Highschool/proff/proof.html')
+
+
+@app.route('/quantitative10')
+def quantitative_test10():
+    # Render the template for the quantitative test
+    return render_template('/Highschool/num10.html')
+
+@app.route('/abstract10')
+def abstract_test10():
+    # Render the template for the abstract test
+    return render_template('/Highschool/ar10.html')
+
+@app.route('/verbal10')
+def verbal_test10():
+    # Render the template for the verbal test
+    return render_template('/Highschool/verb10.html')
+
+@app.route('/spatial10')
+def spatial_test10():
+    # Render the template for the spatial test
+    return render_template('/Highschool/sp10.html')
+
+@app.route('/mechanical10')
+def mechanical_test10():
+    # Render the template for the mechanical test
+    return render_template('/Highschool/mech10.html')
+
+@app.route('/perceptual10')
+def perceptual_test10():
+    # Render the template for the perceptual test
+    return render_template('/Highschool/per10.html')
+
+@app.route('/language10')
+def language_test10():
+    # Render the template for the language test
+    return render_template('/Highschool/lang10.html')
+
+
+
+
+
+@app.route('/quantitativeH')
+def quantitative_testH():
+    # Render the template for the quantitative test
+    return render_template('/Highschool/Hss/num12.html')
+
+@app.route('/abstractH')
+def abstract_testH():
+    # Render the template for the abstract test
+    return render_template('/Highschool/Hss/ar12.html')
+
+@app.route('/verbalH')
+def verbal_testH():
+    # Render the template for the verbal test
+    return render_template('/Highschool/Hss/verb12.html')
+
+@app.route('/spatialH')
+def spatial_testH():
+    # Render the template for the spatial test
+    return render_template('/Highschool/Hss/sp12.html')
+
+@app.route('/mechanicalH')
+def mechanical_testH():
+    # Render the template for the mechanical test
+    return render_template('/Highschool/Hss/mech12.html')
+
+@app.route('/perceptualH')
+def perceptual_testH():
+    # Render the template for the perceptual test
+    return render_template('/Highschool/Hss/per12.html')
+
+@app.route('/languageH')
+def language_testH():
+    # Render the template for the language test
+    return render_template('/Highschool/Hss/lang12.html')
+
 
 
 

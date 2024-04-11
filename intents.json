@@ -4,18 +4,86 @@
       "tag": "fallback_response",
       "patterns": [" "],
       "responses": ["I'm sorry, I didn't quite catch that. Can you please provide more details or ask another question?"]
-  },
-  {
+    },
+   {
       "tag": "greeting",
-      "patterns": ["Hi", "Hello", "Hey"],
-      "responses": ["Hello! How can I help you?", "Hi there! Great to hear from you, need any help?"]
+      "patterns": [
+        "Hi", 
+        "Hello", 
+        "Hey", 
+        "Hai", 
+        "Hiya", 
+        "Hey there", 
+        "Howdy", 
+        "Greetings",
+        "Good morning", 
+        "Good afternoon", 
+        "Good evening", 
+        "What's up?", 
+        "Yo!", 
+        "Hi there", 
+        "Bonjour", 
+        "Hola", 
+        "Ciao", 
+        "Salutations", 
+        "Sup?"],
+      "responses": [
+        "Hello! How can I help you?", 
+        "Hi there! Great to hear from you, need any help?"]
   },
   {
+    "tag": "yes",
+    "patterns": [
+      "yes", 
+      "ya", 
+      "yep", 
+      "yeah", 
+      "sure", 
+      "absolutely", 
+      "indeed", 
+      "definitely", 
+      "affirmative", 
+      "certainly"],
+    "responses": [
+      "Ok! How can I help you?", 
+      "Sure! How can I help you?"]
+},
+{
+  "tag": "No",
+  "patterns": [
+    "No", 
+    "nope", 
+    "nah", 
+    "negative", 
+    "not at all"],
+  "responses": [
+    "Okay, no problem.", 
+    "Understood.", 
+    "Sure thing.", 
+    "Alright, let me know if you change your mind."]
+},
+ {
       "tag": "interest",
-      "patterns": ["please help me in choosing a career", "selecting a job", "I'm unsure about my career path. Can you help me explore some options?", "What career is best suited for my skills and interests?"],
-      "responses": ["Sure thing! What's your favorite hobby?", "Of course! Let's start by discussing your interests, strengths, and any specific industries you find appealing. What are some activities you enjoy doing in your free time?",
-          "To better assist you, could you please share your key skills and interests? This will help me provide more personalized career suggestions."]
+      "patterns": [
+        "I need guidance in selecting a career",
+        "Can you assist me in finding a suitable career path?",
+        "I'm unsure about my career direction, can you help?",
+        "How do I choose the right career?",
+        "What career options are available to me?",
+        "I'm looking for advice on career choices",
+        "What are my career prospects?",
+        "Can you provide career counseling?",
+        "Help me explore different career opportunities",
+        "I'm interested in finding my passion and career path"
+    ],
+
+    "responses": [
+      "Sure thing! What's your favorite hobby?",
+      "Of course! Let's start by discussing your interests, strengths, and any specific industry you find appealing. What's your main interest?",
+      "To better assist you, could you please share your key skills and interests? This will help me provide more personalized career suggestions. What's your primary interest?"
+  ]
   },
+
   {
       "tag": "education",
       "patterns": ["Tell me about available courses", "What should I study for a career in IT?", "Recommend some online courses", "How important is education for career success?"],

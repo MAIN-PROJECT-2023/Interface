@@ -1,0 +1,70 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test Entry Form</title>
+   
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/demo.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Test Entry Form</h2>
+        <form id="entryForm">
+            <div class="form-group">
+                <label for="education">Type of Education</label>
+                <select id="education" name="education" required>
+                    <option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="Higher">Higher</option>
+                </select>
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+    <script>
+        document.getElementById("entryForm").addEventListener('submit', function(e) {
+            e.preventDefault();
+            const education = document.getElementById("education").value;
+            console.log("Education selected:", education);
+
+            // Redirect based on education type
+            if (education === "10th") {
+                console.log("Redirecting to tenth.html");
+                window.location.href = '../Highschool/tenth.html';
+            } else if (education === "12th") {
+                console.log("Redirecting to Hss/twelth.html");
+                window.location.href = '../Highschool/Hss/twelth.html';
+            } else if (education === "Higher") {
+                console.log("Redirecting to proff/proof.html");
+                window.location.href = '../Highschool/proff/proof.html';
+            } else {
+                console.log("Invalid education type:", education);
+                alert('Invalid education type.');
+            }
+        });
+    </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test Entry Form</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/demo.css') }}">
+</head>
+<body>
+   
+    <div class="container">
+        <h2>Test Entry Form</h2>
+        <form id="entryForm" action="/submit_form" method="POST">
+            <div class="form-group">
+                <label for="education">Type of Education</label>
+                <select id="education" name="education" required>
+                    <option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="Higher">Higher</option>
+                </select>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
