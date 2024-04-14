@@ -26,7 +26,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'
 
 
-mode='cloud'
+mode='local'
 if mode=='local':
     # Connect to MongoDB
     app.config['MONGO_URI']= 'mongodb://localhost:27017/chatbot'
@@ -334,6 +334,50 @@ def language_testH():
     # Render the template for the language test
     return render_template('/Highschool/Hss/lang12.html')
 
+
+
+
+@app.route('/quantitativeU')
+@login_required
+def quantitative_testU():
+    # Render the template for the quantitative test
+    return render_template('/Highschool/proff/quant.html')
+
+@app.route('/abstractU')
+@login_required
+def abstract_testU():
+    # Render the template for the abstract test
+    return render_template('/Highschool/proff/abstr.html')
+
+@app.route('/verbalU')
+@login_required
+def verbal_testU():
+    # Render the template for the verbal test
+    return render_template('/Highschool/proff/verbal.html')
+
+@app.route('/spatialU')
+@login_required
+def spatial_testU():
+    # Render the template for the spatial test
+    return render_template('/Highschool/proff/spat.html')
+
+@app.route('/mechanicalU')
+@login_required
+def mechanical_testU():
+    # Render the template for the mechanical test
+    return render_template('/Highschool/proff/mech.html')
+
+@app.route('/perceptualU')
+@login_required
+def perceptual_testU():
+    # Render the template for the perceptual test
+    return render_template('/Highschool/proff/peracc.html')
+
+@app.route('/languageU')
+@login_required
+def language_testU():
+    # Render the template for the language test
+    return render_template('/Highschool/proff/lang.html')
 
 
 

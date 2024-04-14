@@ -399,7 +399,14 @@
         function getCorrectAnswer(questionNumber) {
             return answers['q' + questionNumber];
         }
-
+        
+        function displayCorrectAnswers() {
+            // Loop through each question
+            for (var i = 1; i <= Object.keys(answers).length; i++) {
+                var correctOption = document.querySelector('input[name="q' + i + '"][value="' + answers['q' + i] + '"]');
+                correctOption.parentNode.style.color = 'green'; // Highlight correct option
+            }
+        }
         document.getElementById("submit").addEventListener('click', function(e){
             // Logic to calculate quiz results (count correct, incorrect, unattended)
             var totalQuestions = 30;
@@ -417,6 +424,9 @@
                     if (userAnswer === correctAnswer) {
                         correctAnswers++;
                     }
+                    else {
+                        selectedOption.parentNode.style.color = 'red'; // Highlight incorrect option
+                    }
                 } else {
                     // If no option is selected, question is unattended
                     unattendedQuestions++;
@@ -433,7 +443,7 @@
 
             // Display pie chart
             displayPieChart(correctPercentage, incorrectPercentage, unattendedPercentage);
-        
+            displayCorrectAnswers();
           
     })
 
