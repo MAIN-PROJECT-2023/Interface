@@ -110,27 +110,7 @@ function handleKeyPress(event) {
   }
 }
     // Function to toggle between dark and light themes
-    function toggleTheme() {
-  const body = document.body;
-  const currentTheme = body.getAttribute('data-theme');
-  const newTheme = currentTheme === 'light' ? 'dark' : 'light';
 
-  body.setAttribute('data-theme', newTheme);
-}
-
-  
-    // Function to set the initial theme based on localStorage (optional)
-    function setInitialTheme() {
-      const savedTheme = localStorage.getItem('theme');
-      const body = document.body;
-  
-      if (savedTheme) {
-        body.setAttribute('data-theme', savedTheme);
-      } else {
-        // Set a default theme if no theme is saved in localStorage
-        body.setAttribute('data-theme', 'light');
-      }
-    }
   
     // Call setInitialTheme on page load
     window.addEventListener('load', setInitialTheme);

@@ -78,11 +78,243 @@
     ],
 
     "responses": [
-      "Sure thing! What's your favorite hobby?",
-      "Of course! Let's start by discussing your interests, strengths, and any specific industry you find appealing. What's your main interest?",
-      "To better assist you, could you please share your key skills and interests? This will help me provide more personalized career suggestions. What's your primary interest?"
+      "Sure thing! What's your favorite hobby?,seperated by commas",
+      "Of course! Let's start by discussing your interests, strengths, and any specific industry you find appealing. What's your main interest?seperated by comma",
+      "To better assist you, could you please share your key skills and interests? This will help me provide more personalized career suggestions. What's your primary interest?seperated by comma"
   ]
   },
+
+  {
+    "tag": "Bachelor of e-Commerce (B.e.Com)",
+    "patterns": ["B.e.Com", "e-Commerce", "Business, Technology", "E-Commerce, Business Administration"],
+    "responses": ["The Bachelor of e-Commerce (B.e.Com) program is designed to provide students with a comprehensive understanding of electronic commerce, business management, and technology integration in modern business practices."]
+  },
+  {
+    "tag": "Bachelor of Electro-Homeopathy Medicine and Surgery (B.E.M.S)",
+    "patterns": ["B.E.M.S", "Electro-Homeopathy", "Medicine and Surgery"],
+    "responses": ["The Bachelor of Electro-Homeopathy Medicine and Surgery (B.E.M.S) program focuses on alternative medicine practices, particularly electro-homeopathy, encompassing both medicinal theory and surgical procedures."]
+  },
+  {
+    "tag": "Bachelor of Electronic Science (B.E.S)",
+    "patterns": ["B.E.S", "Electronic Science", "Engineering"],
+    "responses": ["The Bachelor of Electronic Science (B.E.S) program delves into the fundamentals of electronic systems, encompassing both theoretical concepts and practical applications in various engineering domains."]
+  },
+  {
+    "tag": "Bachelor of Education (B.Ed)",
+    "patterns": ["B.Ed", "Education", "Teaching"],
+    "responses": ["The Bachelor of Education (B.Ed) program is tailored to equip aspiring educators with the necessary skills and knowledge to excel in the field of teaching, focusing on pedagogical techniques, curriculum development, and educational psychology."]
+  },
+  {
+    "tag": "Bachelor of education in Artificial Intelligence (B.Ed AI)",
+    "patterns": ["B.Ed AI", "Artificial Intelligence", "Education"],
+    "responses": ["The Bachelor of education in Artificial Intelligence (B.Ed AI) program combines principles of education with cutting-edge artificial intelligence technologies, preparing graduates for roles in developing AI-driven educational tools, adaptive learning systems, and educational data analysis."]
+  },
+  {
+    "tag": "Bachelor of Elementary Education (B.EL.Ed)",
+    "patterns": ["B.EL.Ed", "Elementary Education", "Teaching"],
+    "responses": ["The Bachelor of Elementary Education (B.EL.Ed) program focuses on training future educators specifically for teaching at the elementary level, emphasizing foundational pedagogical methods, child development theories, and classroom management strategies."]
+  },
+  {
+    "tag": "Bachelor of Fine Arts (B.F.A)",
+    "patterns": ["B.F.A", "Fine Arts", "Visual Arts"],
+    "responses": ["The Bachelor of Fine Arts (B.F.A) program offers students a comprehensive exploration of various artistic mediums, including drawing, painting, sculpture, and multimedia, fostering creativity and artistic expression."]
+  },
+  {
+    "tag": "Bachelor of Financial Investment and Analysis (B.F.I.A)",
+    "patterns": ["B.F.I.A", "Financial Investment", "Analysis"],
+    "responses": ["The Bachelor of Financial Investment and Analysis (B.F.I.A) program equips students with the analytical skills and financial expertise necessary to navigate complex investment landscapes, analyze market trends, and make informed investment decisions."]
+  },
+  {
+    "tag": "Bachelor of Fishery Sciences (B.F.S)",
+    "patterns": ["B.F.S", "Fishery Sciences", "Aquaculture"],
+    "responses": ["The Bachelor of Fishery Sciences (B.F.S) program focuses on the sustainable management of aquatic resources, encompassing studies in aquaculture, fisheries management, marine biology, and environmental conservation."]
+  },
+  {
+    "tag": "Bachelor of Fashion Technology (B.F.Tech)",
+    "patterns": ["B.F.Tech", "Fashion Technology", "Design", "Textiles"],
+    "responses": ["The Bachelor of Fashion Technology (B.F.Tech) program integrates fashion design principles with cutting-edge textile technologies, providing students with the skills to conceptualize, design, and produce innovative fashion products."]
+  },
+  {
+    "tag": "Bachelor of General Law (B.G.L)",
+    "patterns": ["B.G.L", "General Law", "Legal Studies"],
+    "responses": ["The Bachelor of General Law (B.G.L) program offers a comprehensive understanding of legal principles, jurisprudence, and legal systems, preparing graduates for diverse career opportunities in the legal field."]
+  },
+  {
+    "tag": "Behavioral Healthcare Education (B.H.Ed)",
+    "patterns": ["B.H.Ed", "Behavioral Healthcare", "Education"],
+    "responses": ["The Behavioral Healthcare Education (B.H.Ed) program focuses on the intersection of behavioral science and healthcare education, equipping students with the skills to support individuals with mental health needs through education, counseling, and intervention strategies."]
+  },
+  {
+    "tag": "Bachelor of Hotel Management (B.H.M)",
+    "patterns": ["B.H.M", "Hotel Management", "Hospitality"],
+    "responses": ["The Bachelor of Hotel Management (B.H.M) program is designed to prepare students for managerial roles in the hospitality industry, covering areas such as hotel operations, guest services, event management, and revenue optimization."]
+  },
+  {
+    "tag": "Bachelor Hotel Management and Catering Technology (B.H.M.C.T)",
+    "patterns": ["B.H.M.C.T", "Hotel Management", "Catering Technology"],
+    "responses": ["The Bachelor Hotel Management and Catering Technology (B.H.M.C.T) program integrates hospitality management with culinary arts and catering technology, providing students with a comprehensive skill set to excel in various roles within the hospitality and food service sectors."]
+  },
+  {
+    "tag": "Bachelor of Homeopathic Medicine And Surgery (B.H.M.S)",
+    "patterns": ["B.H.M.S", "Homeopathic Medicine", "Surgery"],
+    "responses": ["The Bachelor of Homeopathic Medicine And Surgery (B.H.M.S) program focuses on holistic approaches to healthcare, emphasizing the principles of homeopathic medicine and surgical interventions within the context of natural healing."]
+  },
+
+{
+      "tag": "Bachelor of Home Science (B.H.Sc)",
+      "patterns": ["B.H.Sc", "Home Science", "Family Studies"], 
+      "responses": ["The Bachelor of Home Science (B.H.Sc) program encompasses the study of various aspects of home management, nutrition, family dynamics, and human development, preparing graduates for careers in fields such as family counseling, nutrition consulting, and community health education."]
+    },
+    {
+      "tag": "Bachelor of Hospitality and Tourism Management (B.H.T.M)",
+      "patterns": ["B.H.T.M", "Hospitality", "Tourism Management"],
+      "responses": ["The Bachelor of Hospitality and Tourism Management (B.H.T.M) program provides students with a comprehensive understanding of the hospitality industry and tourism management, covering areas such as hotel operations, travel planning, destination marketing, and sustainable tourism practices."]
+    },
+    {
+      "tag": "Bachelor of Interior Design (B.I.D)",
+      "patterns": ["B.I.D", "Interior Design", "Architecture"],
+      "responses": ["The Bachelor of Interior Design (B.I.D) program focuses on the art and science of creating functional and aesthetically pleasing interior spaces, integrating principles of design, architecture, environmental psychology, and sustainable design practices."]
+    },
+    {
+      "tag": "Bachelor of Information Systems Management (B.I.S.M)",
+      "patterns": ["B.I.S.M", "Information Systems", "Management"],
+      "responses": ["The Bachelor of Information Systems Management (B.I.S.M) program combines the study of information technology with business management principles, equipping students with the skills to design, implement, and manage information systems to support organizational goals and strategies."]
+    },
+    {
+      "tag": "Broadcast Journalism (B.J)",
+      "patterns": ["B.J", "Journalism", "Broadcasting", "Media"],
+      "responses": ["Broadcast Journalism (B.J) focuses on the principles and practices of news reporting, storytelling, and multimedia production for broadcast media platforms such as television, radio, and online streaming services."]
+    },
+    {
+      "tag": "Bachelor of Law (B.L)",
+      "patterns": ["B.L", "Law", "Legal Studies"],
+      "responses": ["The Bachelor of Law (B.L) program provides a comprehensive understanding of legal principles, theories, and practices, preparing graduates for careers as legal professionals, advocates, or legal consultants in various sectors."]
+    },
+    {
+      "tag": "Bachelor of Labour Management (B.L.M)",
+      "patterns": ["B.L.M", "Labour Management", "Human Resources"],
+      "responses": ["The Bachelor of Labour Management (B.L.M) program focuses on the principles of labor relations, human resource management, and organizational behavior, equipping students with the skills to effectively manage human capital within organizations."]
+    },
+    {
+      "tag": "Bachelor Library Science (B.L.Sc)",
+      "patterns": ["B.L.Sc", "Library Science", "Information Management"],
+      "responses": ["The Bachelor Library Science (B.L.Sc) program prepares students for careers in library and information science, covering areas such as collection management, cataloging, information retrieval, and digital librarianship."]
+    },
+    {
+      "tag": "baarts_response",
+      "patterns": ["literature", "writing", "history", "culture", "sociology", "psychology", "political science", "economics","arts","fine arts", "performing arts", "philosophy", "critical thinking", "communication", "media studies", "anthropology"],
+      "responses": [
+        "The Bachelor of Arts (BA) program might be a great fit for you! This course offers a rich exploration of literature, history, culture, and social sciences, allowing you to delve into subjects like psychology, political science, economics, fine arts, performing arts, philosophy, critical thinking, communication, media studies, and anthropology. It provides a diverse and interdisciplinary education that can help you develop a well-rounded understanding of various fields, making it an excellent choice based on your interests.",
+        "Considering your interests, pursuing a Bachelor of Arts (BA) degree could be highly rewarding. This course encompasses a wide range of subjects such as literature, history, culture, psychology, sociology, economics, fine arts, performing arts, philosophy, critical thinking, communication, media studies, and anthropology, providing you with the opportunity to explore and deepen your understanding of these disciplines. The interdisciplinary nature of the BA program can offer valuable insights and perspectives, making it an ideal choice for your academic journey."
+      ]
+    },
+    {
+      "tag": "babed_response",
+      "patterns": ["education", "teaching", "pedagogy", "child development", "curriculum design", "classroom management", "educational psychology", "special education", "learning theories", "assessment", "inclusive education", "literature", "writing", "history", "culture", "sociology", "psychology", "political science", "economics", "fine arts", "performing arts", "philosophy", "critical thinking", "communication", "media studies", "anthropology"],
+      "response": "The Bachelor of Arts in Bachelor of Education (B.A.B.Ed) program could be an excellent fit for you! This unique course combines the study of education, teaching methodologies, and child development with a rich exploration of subjects such as literature, writing, history, culture, sociology, psychology, political science, economics, fine arts, performing arts, philosophy, critical thinking, communication, media studies, and anthropology. By integrating these disciplines, the B.A.B.Ed program offers a comprehensive and interdisciplinary approach to education, preparing you for a rewarding career in teaching while fostering a deep understanding of diverse fields."
+    },
+    {
+      "tag": "ba_llb_response",
+      "patterns": ["literature", "writing", "history", "culture", "sociology", "psychology", "political science", "economics", "fine arts", "performing arts", "philosophy", "critical thinking", "communication", "media studies", "anthropology", "law", "legal studies", "justice", "court systems", "criminal law", "civil law", "constitutional law", "legal writing", "legal research", "advocacy", "jurisprudence", "international law", "human rights law", "intellectual property law"],
+      "responses": [
+     
+        "With your diverse interests spanning both humanities and law, the B.A.LLB program provides an interdisciplinary approach to education. You'll have the opportunity to engage in critical analysis, develop communication skills, and explore complex legal concepts, making it an ideal choice for students with a passion for both the arts and the law.",
+        "Considering your enthusiasm for literature, history, and justice, the B.A.LLB program offers a stimulating academic environment where you can explore the intersections between culture, society, and the legal system. Through interdisciplinary studies and practical legal training, you'll be equipped to address contemporary legal challenges with a well-rounded perspective."
+      ]
+    },
+    {
+      "tag": "bams_response",
+      "patterns": ["ayurveda", "medicine", "herbal medicine", "alternative medicine", "holistic health", "yoga", "nutrition", "anatomy", "physiology", "pathology", "pharmacology", "clinical medicine", "diagnosis", "treatment", "traditional healing", "sanskrit", "ayurvedic philosophy", "ayurvedic therapies"],
+      "responses": [
+        "Considering your passion for Ayurveda, herbal medicine, and traditional healing, the B.A.M.S program provides a deep dive into Ayurvedic philosophy, diagnostics, and treatment modalities. You'll have the opportunity to study Sanskrit texts, learn about Ayurvedic herbs and formulations, and develop clinical skills to promote health and well-being."
+      ]
+    },
+    {
+      "tag": "basc_response",
+      "patterns": ["applied science", "technology", "engineering", "health sciences", "information technology", "environmental science", "biotechnology", "applied physics", "applied chemistry", "data analysis", "software development", "sustainable technology", "industrial technology", "applied mathematics", "healthcare technology", "scientific research", "innovation", "practical science application", "technical skills", "problem-solving"],
+      "responses": [
+        "With your interest in technology, engineering, and applied sciences, the B.A.Sc. program provides an ideal blend of theoretical knowledge and practical expertise. Focused on innovation and problem-solving, the program prepares students for careers in industries that require specialized scientific skills and a practical approach to technology.",
+        "Considering your passion for scientific research, data analysis, and sustainable technology, the B.A.Sc. program offers a comprehensive education in applying scientific concepts to address complex issues. This program emphasizes hands-on learning and practical experience, preparing you for a dynamic career in applied science and technology."
+      ]
+    },
+    {
+      "tag": "baslp_response",
+      "patterns": ["audiology", "speech", "communication", "language", "hearing", "therapy", "medical science", "ear health", "voice", "sign language", "children", "adults", "elderly", "sound", "listening", "speaking", "reading", "writing", "hearing disorders", "speech disorders", "language development", "communication disorders", "ear anatomy", "acoustics", "phonetics", "linguistics", "voice therapy", "neurogenic communication disorders", "pediatric audiology", "assistive listening devices", "audiological assessment", "speech pathology", "rehabilitative audiology", "oral rehabilitation", "speech reading"],
+       "responses": [
+         "If you're drawn to understanding and improving how people communicate and hear, the B.ASLP program offers a blend of science, therapy, and compassion. It's a career path that not only involves working with cutting-edge technology and medical science but also requires a deep commitment to helping others improve their quality of life.",
+         "With interests ranging from the science of sound and language to hands-on therapy and rehabilitation, the B.ASLP program prepares you for a fulfilling career in audiology and speech-language pathology. This program is ideal for anyone who wants to combine their love for medical sciences with the desire to help people communicate effectively."
+       ]
+     },
+     {"tag": "bba_response",
+     "patterns": ["bachelor of business administration", "bba", "selling skill","selling","business administration", "management studies", "business management", "administration", "management", "business", "leadership", "entrepreneurship", "finance", "accounting", "marketing", "human resources", "strategy"], 
+     "responses": ["BBA (Bachelor of Business Administration) is the superior choice for you. This program equips you with comprehensive knowledge of business fundamentals, management strategies, and leadership skills. Opting for BBA ensures you're well-prepared to excel in the corporate world, where you'll effectively navigate various business challenges and lead teams to success."
+     ]
+     },
+     {"tag": "barch_response", 
+     "patterns": ["bachelor of architecture", "barch", "architecture degree", "architectural studies", "design studies", "building design", "architectural design", "architectural theory", "building construction", "urban design", "landscape architecture", "sustainable architecture", "structural engineering"],
+      "responses":
+      ["If you're passionate about shaping the built environment, a Bachelor of Architecture (B.Arch) could be the perfect fit for you. This program offers a blend of creativity, technical skills, and critical thinking necessary for designing sustainable and innovative structures. With a B.Arch, you'll have the opportunity to explore architectural design, urban planning, and environmental sustainability, preparing you for a rewarding career in the field of architecture.","Embarking on a Bachelor of Architecture (B.Arch) journey opens doors to a world of creativity and innovation in designing the spaces we inhabit. Through this program, you'll delve into architectural history, theory, and practice, honing your skills to conceptualize and construct remarkable structures. With a B.Arch, you'll not only create functional spaces but also contribute to shaping communities and enriching lives through thoughtful design solutions."
+     ]
+     },
+     {
+       "tag": "bbm_response",
+       "patterns": ["bachelor of business management", "bbm","business management degree","management studies","business administration","business leadership","entrepreneurship","strategic management","organizational behavior","operations management","financial management","marketing management","human resource management","project management","supply chain management"
+       ],
+       "responses": [
+         "Choosing a Bachelor of Business Management (BBM) aligns perfectly with your interests. This program offers a comprehensive understanding of various business aspects, including management, finance, marketing, and human resources. With a BBM, you'll develop essential skills and knowledge crucial for success in today's dynamic business landscape, making it the ideal choice for you."
+       ]
+     },
+     {
+       "tag": "bca_response",
+         "patterns": ["bachelor of computer applications","bca","computer science","programming","information technology","software development","database management","web development","networking","data science","cybersecurity","computer systems","algorithm","computer architecture","computer graphics","coding"
+     ],
+         "responses": ["Choosing a Bachelor of Computer Applications (BCA) program can be a rewarding decision for you. BCA offers a comprehensive curriculum covering various aspects of computer science, programming, software development, and information technology. With a BCA degree, you'll acquire valuable skills in areas such as database management, web development, networking, and data science, making you well-prepared for a successful career in the field of technology."
+     ]
+     },
+   
+     {"tag": "bctca_response",
+      "patterns": ["bachelor of catering technology and culinary arts", "bctca", "catering technology degree", "culinary arts degree", "food service management", "food production", "hospitality management", "gastronomy", "culinary techniques", "menu planning", "food safety and sanitation", "culinary nutrition", "bakery and confectionery", "food presentation", "international cuisine", "restaurant management"], 
+     "responses": ["Choosing a Bachelor of Catering Technology and Culinary Arts (BCTCA) program is an excellent decision for individuals passionate about the culinary arts and hospitality industry. BCTCA provides a comprehensive curriculum covering various aspects of food service management, culinary techniques, menu planning, and hospitality operations. With a BCTCA degree, you'll acquire practical skills in food production, bakery and confectionery, food safety, and sanitation, preparing you for a rewarding career in the culinary and hospitality sectors."]
+     },
+     {"tag": "bcs_response",
+      "patterns": [
+     "bachelor of computer science", "bcs", "computer science degree", "computing", "programming", "software development", "computer programming", "data structures", "algorithms", "computer systems", "computer architecture", "networking", "database management", "web development", "artificial intelligence", "machine learning"], "response": [
+     "Opting for a Bachelor of Computer Science (BCS) program is a superior choice for you. BCS offers a comprehensive curriculum covering various aspects of computing, programming, and software development. With a BCS degree, you'll gain expertise in data structures, algorithms, computer systems, and networking, preparing you for a rewarding career in fields such as software engineering, web development, artificial intelligence, and more. Pursuing a BCS degree opens doors to exciting opportunities in the rapidly evolving technology industry, where your skills and knowledge will be in high demand."]
+     },
+     {"tag": "bcom_response",
+      "patterns": ["bachelor of commerce", "bcom", "commerce degree", "business studies", "accounting", "finance", "economics", "marketing", "management", "business administration", "entrepreneurship", "business law", "financial management", "human resource management", "supply chain management", "taxation", "auditing"], 
+     "responses":[
+      "Selecting a Bachelor of Commerce (BCom) program is an excellent decision for individuals interested in pursuing a career in business and finance. BCom offers a comprehensive curriculum covering various subjects such as accounting, finance, economics, and marketing. With a BCom degree, you'll develop essential skills in financial management, business administration, and strategic decision-making, preparing you for diverse roles in industries such as banking, consulting, entrepreneurship, and more."]
+     },
+     {"tag": "bd_response", 
+     "patterns": [
+     "bachelor of divinity", "bd", "theology degree", "divinity studies", "religious studies", "spirituality", "religious education", "biblical studies", "church history", "ministry studies", "pastoral care", "theological ethics", "homiletics", "ecclesiology", "interfaith dialogue", "spiritual formation", "religious leadership"], 
+     "responses":[
+      "Opting for a Bachelor of Divinity (BD) program is a profound choice for individuals passionate about religious studies and spiritual leadership. BD offers a comprehensive curriculum covering various subjects such as theology, divinity studies, and biblical studies. With a BD degree, you'll delve into topics like church history, ministry studies, and theological ethics, preparing you for roles in religious ministry, pastoral care, and spiritual leadership within diverse communities."]
+     },
+     {"tag": "bds_response", 
+     "patterns": [
+     "bachelor of dental surgery", "bds", "dental surgery degree", "dentistry studies", "oral health", "dental science", "oral surgery", "dental anatomy", "dental pathology", "oral medicine", "dental radiology", "periodontology", "endodontics", "orthodontics", "oral hygiene", "oral surgery techniques", "restorative dentistry"], 
+     "responses": [
+     "Choosing a Bachelor of Dental Surgery (BDS) program is an excellent decision for individuals interested in pursuing a career in dentistry. BDS offers a comprehensive curriculum covering various aspects of dental science, oral health, and oral surgery. With a BDS degree, you'll gain expertise in areas such as dental anatomy, dental pathology, and dental radiology, preparing you for a rewarding career as a dentist or oral health professional."
+     ]
+     },
+     {"tag": "bdes_response", 
+     "patterns": ["bachelor of design", "bdes", "design degree", "creative design", "graphic design", "industrial design", "fashion design", "interior design", "product design", "visual communication design", "textile design", "user experience design", "design thinking", "design research", "design management", "digital design", "animation design"], 
+     "responses": [
+     "Opting for a Bachelor of Design (B.Des) program is an excellent choice for individuals passionate about creativity and innovation. B.Des offers a comprehensive curriculum covering various aspects of design, including graphic design, fashion design, industrial design, and more. With a B.Des degree, you'll develop practical skills in areas such as visual communication, user experience design, and design thinking, preparing you for a rewarding career in the design industry."]
+     },
+     {"tag": "be_response", 
+     "patterns": [
+     "bachelor of engineering", "b.e.", "engineering degree", "engineering studies", "mechanical engineering", "electrical engineering", "civil engineering", "computer engineering", "chemical engineering", "industrial engineering", "aerospace engineering", "biomedical engineering", "environmental engineering", "software engineering", "structural engineering", "automotive engineering", "petroleum engineering"
+     ], 
+     "responses": [
+     "Choosing a Bachelor of Engineering (B.E.) program is an excellent decision for individuals interested in pursuing a career in engineering. B.E. offers a comprehensive curriculum covering various engineering disciplines such as mechanical engineering, electrical engineering, civil engineering, and more. With a B.E. degree, you'll develop practical skills and knowledge in your chosen field, preparing you for a wide range of engineering roles in industries such as manufacturing, construction, technology, and beyond."]
+     },
+
+
+
+
 
   {
       "tag": "education",
@@ -90,113 +322,6 @@
       "responses": ["There are various online platforms offering courses. Do you have a specific field in mind?", "For a career in IT, consider courses in programming languages, databases, and cybersecurity.",
           "Certainly! Can you specify the industry or field you're interested in? It will help me tailor my recommendations.", "Education is valuable, but gaining practical experience through internships and projects is also crucial for success."]
   },
-  
-      {
-        "tag": "course_recommendation",
-        "patterns": ["Recommend courses based on my interests", "What courses align with my skills?", "Suggest online courses for me"],
-        "responses": ["Sure, I'd be happy to help! Could you please tell me more about your specific interests or skills? For example, are you interested in programming, design, business, or any other field? The more details you provide, the better I can tailor my recommendations."]
-      },
-      {
-        "tag": "programming_courses",
-        "patterns": ["I want to learn programming", "Recommend coding courses", "Best courses for software development"],
-        "responses": ["Great choice! For programming, consider courses on platforms like Codecademy, Udacity, or Coursera. If you're a beginner, 'Python for Beginners' or 'JavaScript Fundamentals' might be a good start. If you have a specific language in mind or any preferences, let me know for more targeted recommendations!"]
-      },
-      {
-        "tag": "design_courses",
-        "patterns": ["Graphic design courses", "Courses for UX/UI design", "Best platforms for design learning"],
-        "responses": ["Fantastic! For graphic design, platforms like Skillshare, Adobe Creative Cloud, and Coursera offer valuable courses. 'Introduction to Graphic Design' or 'UI/UX Design Fundamentals' could be great starting points. Let me know if you have any specific design area you're interested in for more tailored suggestions!"]
-      },
-      {
-        "tag": "business_courses",
-        "patterns": ["Business and entrepreneurship courses", "MBA programs online", "Best courses for startup founders"],
-        "responses": ["Excellent choice! For business and entrepreneurship, platforms like edX, LinkedIn Learning, and Khan Academy offer a range of courses. Consider 'Introduction to Business Strategy' or 'Entrepreneurship Essentials.' If you have specific goals or industries in mind, let me know for more precise recommendations!"]
-      },
-      {
-        "tag": "data_science_courses",
-        "patterns": ["Data science and analytics courses", "Best courses for data analysis", "Machine learning certifications"],
-        "responses": ["Terrific! For data science, platforms like DataCamp, Kaggle, and Coursera provide excellent courses. 'Introduction to Data Science' or 'Machine Learning A-Z' are solid choices. If you have preferences for tools or specific aspects of data science, feel free to share for more targeted suggestions!"]
-      },
-  
-          {
-            "tag": "course_recommendation",
-            "patterns": ["Recommend courses based on my interests", "What courses align with my skills?", "Suggest online courses for me"],
-            "responses": ["Absolutely, I'm here to help! Could you please share more about your specific interests or skills? Whether it's technology, arts, health, or any other domain, the more details you provide, the better I can tailor my recommendations."]
-          },
-          {
-            "tag": "technology_courses",
-            "patterns": ["Courses in artificial intelligence", "Cybersecurity training", "Best programming languages to learn"],
-            "responses": ["Great choice diving into technology! For AI, consider courses on platforms like Coursera ('Machine Learning' by Andrew Ng). Cybersecurity enthusiasts might benefit from courses on platforms like Udemy ('Complete Cyber Security Course'). If you're interested in programming languages, platforms like edX and Codecademy offer comprehensive courses. Let me know if you have specific preferences or goals for more accurate recommendations!"]
-          },
-          {
-            "tag": "arts_courses",
-            "patterns": ["Creative writing courses online", "Digital art and design classes", "Courses for aspiring musicians"],
-            "responses": ["Fantastic! For creative writing, platforms like Skillshare and Coursera have valuable courses. Digital art enthusiasts might enjoy platforms like Udemy ('Digital Painting'). Aspiring musicians can explore platforms like Berklee Online for music courses. If you have a specific art form or tool in mind, feel free to share for more targeted suggestions!"]
-          },
-          {
-            "tag": "health_courses",
-            "patterns": ["Online courses in nutrition", "Fitness training certifications", "Mental health and wellness courses"],
-            "responses": ["Excellent choice focusing on health! For nutrition, consider courses on platforms like Khan Academy or Coursera ('Nutrition Science'). Fitness enthusiasts can explore certifications like NASM or ACE. Mental health and wellness courses are available on platforms like edX ('The Science of Well-Being'). If you have specific health goals or areas of interest, let me know for more personalized recommendations!"]
-          },
-          {
-            "tag": "business_courses",
-            "patterns": ["Finance and investment courses", "Digital marketing training", "Leadership and management programs"],
-            "responses": ["Terrific! For finance, platforms like Udemy and Coursera offer courses like 'Financial Markets and Investment Strategy.' Digital marketing enthusiasts might benefit from courses on Google Digital Garage or HubSpot Academy. Leadership and management programs are available on platforms like LinkedIn Learning. If you have specific business goals or industries in mind, feel free to share for more targeted suggestions!"]
-          },  
-          
-          {
-            "tag": "course_recommendation",
-            "patterns": ["Recommend courses based on my interests", "What courses align with my skills?", "Suggest online courses for me"],
-            "responses": ["Absolutely! To provide the best recommendations, could you please share more details about your specific interests or skills? Whether it's technology, arts, health, business, or any other field, the more information you provide, the more tailored my suggestions can be."]
-          },
-          {
-            "tag": "science_courses",
-            "patterns": ["Physics and astronomy courses online", "Biology and life sciences classes", "Chemistry fundamentals"],
-            "responses": ["Great to see an interest in science! For physics and astronomy, platforms like edX offer courses such as 'Introduction to Astrophysics.' Biology and life sciences enthusiasts might enjoy courses on platforms like Coursera ('Biology and Life Sciences'). Chemistry fundamentals can be explored through platforms like Khan Academy. If you have specific areas or topics in mind, feel free to share for more accurate recommendations!"]
-          },
-          {
-            "tag": "language_courses",
-            "patterns": ["Learn a new language online", "Language proficiency courses", "Language learning apps"],
-            "responses": ["Fantastic choice to explore new languages! Platforms like Duolingo, Rosetta Stone, and Babbel offer interactive language courses. For more structured learning, consider platforms like Coursera ('Language Learning Specializations'). If you have a specific language or proficiency level in mind, let me know for more personalized suggestions!"]
-          },
-          {
-            "tag": "engineering_courses",
-            "patterns": ["Mechanical engineering courses", "Civil engineering certifications", "Electrical engineering fundamentals"],
-            "responses": ["Excellent focus on engineering! For mechanical engineering, platforms like Coursera and edX offer courses such as 'Mechanical Engineering Fundamentals.' Civil engineering certifications can be explored through institutions like ASCE. Electrical engineering fundamentals are available on platforms like Udacity. If you have specific areas or projects in mind, feel free to share for more targeted recommendations!"]
-          },
-          {
-            "tag": "environmental_courses",
-            "patterns": ["Environmental science and sustainability courses", "Green energy certifications", "Conservation and wildlife protection programs"],
-            "responses": ["Terrific choice for environmental studies! Platforms like Coursera and edX offer courses in environmental science and sustainability. For green energy certifications, consider programs like LEED. Conservation and wildlife protection programs are available on platforms like Wildlife Conservation Society. If you have specific environmental interests or goals, let me know for more personalized suggestions!"]
-          },
-          {
-            "tag": "course_recommendation",
-            "patterns": ["Recommend courses based on my interests", "What courses align with my skills?", "Suggest online courses for me"],
-            "responses": ["Absolutely! To offer the best recommendations, could you provide more details about your specific interests or skills? Whether it's science, languages, engineering, environmental studies, or any other field, the more information you share, the more tailored my suggestions can be."]
-          },
-          {
-            "tag": "psychology_courses",
-            "patterns": ["Psychology and mental health courses", "Counseling and therapy certifications", "Positive psychology programs"],
-            "responses": ["Great interest in psychology! Platforms like Coursera and Udemy offer courses in psychology and mental health. For counseling and therapy certifications, institutions like APA provide accredited programs. Positive psychology programs are available on platforms like Positive Psychology Specialization on Coursera. If you have specific areas of psychology or therapy you're interested in, let me know for more personalized suggestions!"]
-          },
-          {
-            "tag": "culinary_courses",
-            "patterns": ["Cooking and culinary arts classes", "Baking and pastry courses online", "Culinary management programs"],
-            "responses": ["Fantastic choice for culinary arts! Platforms like MasterClass and Skillshare offer cooking and culinary arts classes. Baking and pastry courses can be found on platforms like The Great Courses. Culinary management programs are available on institutions like the Culinary Institute of America. If you have specific cuisines or techniques in mind, let me know for more personalized suggestions!"]
-          },
-          {
-            "tag": "music_courses",
-            "patterns": ["Music theory and composition courses", "Instrument-specific lessons online", "Music production and audio engineering programs"],
-            "responses": ["Excellent choice for music enthusiasts! Platforms like Berklee Online and Coursera offer music theory and composition courses. Instrument-specific lessons can be found on platforms like Fret Trainer or Simply Piano. Music production and audio engineering programs are available on platforms like Point Blank Music School. If you have specific instruments or genres in mind, let me know for more personalized suggestions!"]
-          },
-          {
-            "tag": "history_courses",
-            "patterns": ["World history and ancient civilizations courses", "American history classes online", "Archaeology and historical preservation programs"],
-            "responses": ["Terrific interest in history! Platforms like edX and Khan Academy offer courses in world history and ancient civilizations. For American history, platforms like Coursera and The Great Courses provide comprehensive classes. Archaeology and historical preservation programs can be explored through institutions like UNESCO. If you have specific historical periods or regions in mind, let me know for more personalized suggestions!"]
-          },
-
-
-
-        
   {
       "tag": "job_search",
       "patterns": ["How can I find job opportunities?", "Tell me about job search strategies", "Where can I look for job openings?", "Give me tips for a successful job search."],
@@ -289,11 +414,7 @@
   "responses": ["Coping with job loss is challenging. Seek support from friends, family, and consider professional guidance. How are you currently managing the situation?", "Job loss recovery strategies involve updating your resume, networking, and exploring new skills. What industry or field are you interested in?",
       "Finding new opportunities after being laid off involves staying resilient, exploring different industries, and considering freelance or temporary work. What specific challenges are you facing in your job search?", "Dealing with unemployment stress includes self-care, setting realistic goals, and reaching out to support networks. How can I assist you in managing stress during this period?"]
 },
-{
-  "tag": "dance_instruction_details",
-  "patterns": ["Share insights into dance instruction career", "What qualifications do dance instructors need?", "Dance instruction career growth","i like dancing ","dance "],
-  "responses": ["Of course! In a dance instruction career, you'd be responsible for leading dance classes, choreographing routines, and possibly managing your own dance studio. Qualifications may include formal dance training, certifications, and effective teaching skills. Career growth can involve becoming a dance studio owner, choreographer for performances, or even participating in dance competitions. Is there anything specific you'd like more information about in dance instruction?"]
-},
+
 {
   "tag": "remote_work_tips",
   "patterns": ["Tips for working remotely", "How to stay productive while working from home", "Remote work challenges", "Remote collaboration tools"],
@@ -408,3 +529,4 @@
     } 
   ]
 }
+

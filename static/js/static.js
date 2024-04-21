@@ -105,7 +105,6 @@ function sendMessage() {
     // Clear the user input field
     document.getElementById("user-input").value = "";
 }
-
 function appendMessage(message, sender) {
     var chatBox = document.getElementById("chat-box");
     var newMessageContainer = document.createElement("div");
@@ -119,7 +118,13 @@ function appendMessage(message, sender) {
         newMessage.className = 'bot-message';
     }
 
-    newMessage.innerHTML = message;
+    // Split the message by new line characters and create separate div elements for each line
+    var messageLines = message.split('\n');
+    messageLines.forEach(line => {
+        var messageLine = document.createElement("div");
+        messageLine.innerHTML = line;
+        newMessage.appendChild(messageLine);
+    });
 
     newMessageContainer.appendChild(newMessage);
     chatBox.appendChild(newMessageContainer);
@@ -127,4 +132,5 @@ function appendMessage(message, sender) {
     // Scroll to the bottom of the chat box
     chatBox.scrollTop = chatBox.scrollHeight;
 }
+
 
