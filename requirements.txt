@@ -1,0 +1,6 @@
+flask
+numpy
+nltk
+tensorflow
+flask_pymongo
+flask_wtf 
