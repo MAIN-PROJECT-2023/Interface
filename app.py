@@ -5,28 +5,20 @@ import pickle
 import numpy as np
 from markupsafe import Markup
 
-
-
 import nltk
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model 
-
-
 
 from flask_pymongo import PyMongo
 from flask_wtf import FlaskForm, csrf
 from pymongo import MongoClient
 
-
 from functools import wraps
-
-
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'
 
-
-mode='local'
+mode='cloud'
 if mode=='local':
     # Connect to MongoDB
     app.config['MONGO_URI']= 'mongodb://localhost:27017/chatbot'
@@ -36,8 +28,6 @@ else:
 
 mongo = PyMongo(app)
 db = mongo.db
-
-
 
 lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
@@ -406,4 +396,8 @@ def language_testU():
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     app.run(host='0.0.0.0', port=80)  # Specify host and port for production deployment
+=======
+    app.run(host='0.0.0.0',debug=True,port=5000)
+>>>>>>> 1bb1db2125eff4ef159b5037dee701c8b6565d7b

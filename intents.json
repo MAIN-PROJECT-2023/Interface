@@ -211,7 +211,7 @@
     {
       "tag": "babed_response",
       "patterns": ["education", "teaching", "pedagogy", "child development", "curriculum design", "classroom management", "educational psychology", "special education", "learning theories", "assessment", "inclusive education", "literature", "writing", "history", "culture", "sociology", "psychology", "political science", "economics", "fine arts", "performing arts", "philosophy", "critical thinking", "communication", "media studies", "anthropology"],
-      "response": "The Bachelor of Arts in Bachelor of Education (B.A.B.Ed) program could be an excellent fit for you! This unique course combines the study of education, teaching methodologies, and child development with a rich exploration of subjects such as literature, writing, history, culture, sociology, psychology, political science, economics, fine arts, performing arts, philosophy, critical thinking, communication, media studies, and anthropology. By integrating these disciplines, the B.A.B.Ed program offers a comprehensive and interdisciplinary approach to education, preparing you for a rewarding career in teaching while fostering a deep understanding of diverse fields."
+      "responses": ["The Bachelor of Arts in Bachelor of Education (B.A.B.Ed) program could be an excellent fit for you! This unique course combines the study of education, teaching methodologies, and child development with a rich exploration of subjects such as literature, writing, history, culture, sociology, psychology, political science, economics, fine arts, performing arts, philosophy, critical thinking, communication, media studies, and anthropology. By integrating these disciplines, the B.A.B.Ed program offers a comprehensive and interdisciplinary approach to education, preparing you for a rewarding career in teaching while fostering a deep understanding of diverse fields."]
     },
     {
       "tag": "ba_llb_response",
@@ -272,15 +272,56 @@
      ]
      },
    
-     {"tag": "bctca_response",
-      "patterns": ["bachelor of catering technology and culinary arts", "bctca", "catering technology degree", "culinary arts degree", "food service management", "food production", "hospitality management", "gastronomy", "culinary techniques", "menu planning", "food safety and sanitation", "culinary nutrition", "bakery and confectionery", "food presentation", "international cuisine", "restaurant management"], 
-     "responses": ["Choosing a Bachelor of Catering Technology and Culinary Arts (BCTCA) program is an excellent decision for individuals passionate about the culinary arts and hospitality industry. BCTCA provides a comprehensive curriculum covering various aspects of food service management, culinary techniques, menu planning, and hospitality operations. With a BCTCA degree, you'll acquire practical skills in food production, bakery and confectionery, food safety, and sanitation, preparing you for a rewarding career in the culinary and hospitality sectors."]
-     },
-     {"tag": "bcs_response",
+     {
+      "tag": "bctca_response",
       "patterns": [
-     "bachelor of computer science", "bcs", "computer science degree", "computing", "programming", "software development", "computer programming", "data structures", "algorithms", "computer systems", "computer architecture", "networking", "database management", "web development", "artificial intelligence", "machine learning"], "response": [
-     "Opting for a Bachelor of Computer Science (BCS) program is a superior choice for you. BCS offers a comprehensive curriculum covering various aspects of computing, programming, and software development. With a BCS degree, you'll gain expertise in data structures, algorithms, computer systems, and networking, preparing you for a rewarding career in fields such as software engineering, web development, artificial intelligence, and more. Pursuing a BCS degree opens doors to exciting opportunities in the rapidly evolving technology industry, where your skills and knowledge will be in high demand."]
-     },
+        "bachelor of catering technology and culinary arts",
+        "bctca",
+        "catering technology degree",
+        "culinary arts degree",
+        "food service management",
+        "food production",
+        "hospitality management",
+        "gastronomy",
+        "culinary techniques",
+        "menu planning",
+        "food safety and sanitation",
+        "culinary nutrition",
+        "bakery and confectionery",
+        "food presentation",
+        "international cuisine",
+        "restaurant management"
+      ],
+      "responses": [
+        "Choosing a Bachelor of Catering Technology and Culinary Arts (BCTCA) program is an excellent decision for individuals passionate about the culinary arts and hospitality industry. BCTCA provides a comprehensive curriculum covering various aspects of food service management, culinary techniques, menu planning, and hospitality operations. With a BCTCA degree, you'll acquire practical skills in food production, bakery and confectionery, food safety, and sanitation, preparing you for a rewarding career in the culinary and hospitality sectors."
+      ]
+    },
+    
+    {
+      "tag": "bcs_response",
+      "patterns": [
+        "bachelor of computer science",
+        "bcs",
+        "computer science degree",
+        "computing",
+        "programming",
+        "software development",
+        "computer programming",
+        "data structures",
+        "algorithms",
+        "computer systems",
+        "computer architecture",
+        "networking",
+        "database management",
+        "web development",
+        "artificial intelligence",
+        "machine learning"
+      ],
+      "responses": [
+        "Opting for a Bachelor of Computer Science (BCS) program is a superior choice for you. BCS offers a comprehensive curriculum covering various aspects of computing, programming, and software development. With a BCS degree, you'll gain expertise in data structures, algorithms, computer systems, and networking, preparing you for a rewarding career in fields such as software engineering, web development, artificial intelligence, and more. Pursuing a BCS degree opens doors to exciting opportunities in the rapidly evolving technology industry, where your skills and knowledge will be in high demand."
+      ]
+    },
+    
      {"tag": "bcom_response",
       "patterns": ["bachelor of commerce", "bcom", "commerce degree", "business studies", "accounting", "finance", "economics", "marketing", "management", "business administration", "entrepreneurship", "business law", "financial management", "human resource management", "supply chain management", "taxation", "auditing"], 
      "responses":[
