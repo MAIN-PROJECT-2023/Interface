@@ -405,6 +405,5 @@ def language_testU():
     return render_template('/Highschool/proff/lang.html')
 
 
-
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=80)  # Specify host and port for production deployment
