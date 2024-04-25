@@ -396,8 +396,5 @@ def language_testU():
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
-    app.run(host='0.0.0.0', port=80)  # Specify host and port for production deployment
-=======
     app.run(host='0.0.0.0',debug=True,port=5000)
->>>>>>> 1bb1db2125eff4ef159b5037dee701c8b6565d7b
+
