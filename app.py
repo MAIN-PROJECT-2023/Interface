@@ -19,7 +19,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'
 
 mode='cloud'
-if mode=='local':
+if mode=='cloud':
     # Connect to MongoDB
     app.config['MONGO_URI']= 'mongodb://localhost:27017/chatbot'
 else:
